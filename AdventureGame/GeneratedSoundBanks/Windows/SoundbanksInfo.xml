@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX" Hash="1705482171">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3664581270" Name="Ambient_Campfire_Play" ObjectPath="\Events\Default Work Unit\Ambient_Campfire_Play">
+					<IncludedMemoryFiles>
+						<File Id="919409050" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Torch.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="100151336" Name="Ambient_Campfire_Stop" ObjectPath="\Events\Default Work Unit\Ambient_Campfire_Stop"/>
+				<Event Id="1378810117" Name="Ambient_Core_Shield_1" ObjectPath="\Events\Default Work Unit\Ambient_Core_Shield_1"/>
+				<Event Id="1378810118" Name="Ambient_Core_Shield_2" ObjectPath="\Events\Default Work Unit\Ambient_Core_Shield_2"/>
+				<Event Id="1378810119" Name="Ambient_Core_Shield_3" ObjectPath="\Events\Default Work Unit\Ambient_Core_Shield_3"/>
+				<Event Id="1615265847" Name="Ambient_Core_Shield_Alive" ObjectPath="\Events\Default Work Unit\Ambient_Core_Shield_Alive"/>
+				<Event Id="1389069565" Name="Ambient_Core_Shield_Destroyed" ObjectPath="\Events\Default Work Unit\Ambient_Core_Shield_Destroyed"/>
+				<Event Id="2355650095" Name="Ambient_Crystal_Hum" ObjectPath="\Events\Default Work Unit\Ambient_Crystal_Hum">
+					<IncludedMemoryFiles>
+						<File Id="461929612" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Crystal_Ringing.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Crystal_Ringing_9C21D62A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4275106484" Name="Ambient_Lava" ObjectPath="\Events\Default Work Unit\Ambient_Lava">
+					<IncludedMemoryFiles>
+						<File Id="149784088" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Lava.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Lava_B06D4CFA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Default Work Unit\Ambient_Torch">
+					<IncludedMemoryFiles>
+						<File Id="919409050" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Torch.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Default Work Unit\Destruction_Container">
+					<IncludedMemoryFiles>
+						<File Id="44139011" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_04.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_04_10C4C929.wem</Path>
+						</File>
+						<File Id="129434280" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_01.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_01_10C4C929.wem</Path>
+						</File>
+						<File Id="273344923" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_03.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_03_10C4C929.wem</Path>
+						</File>
+						<File Id="519586475" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_06.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_06_10C4C929.wem</Path>
+						</File>
+						<File Id="635677513" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_02.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_02_10C4C929.wem</Path>
+						</File>
+						<File Id="795583947" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_05.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3250765487" Name="Destruction_Core_Explosion" ObjectPath="\Events\Default Work Unit\Destruction_Core_Explosion"/>
+				<Event Id="3455175321" Name="Destruction_Core_FinalReveal" ObjectPath="\Events\Default Work Unit\Destruction_Core_FinalReveal"/>
+				<Event Id="1751541218" Name="Destruction_Core_HorribleSound" ObjectPath="\Events\Default Work Unit\Destruction_Core_HorribleSound"/>
+				<Event Id="2095238286" Name="Destruction_Core_ShieldBreak" ObjectPath="\Events\Default Work Unit\Destruction_Core_ShieldBreak"/>
+				<Event Id="1775237669" Name="Enemies_EvilSpitPlant_Bullet_Impact" ObjectPath="\Events\Default Work Unit\Enemies_EvilSpitPlant_Bullet_Impact">
+					<IncludedMemoryFiles>
+						<File Id="84684848" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_10C4C929.wem</Path>
+						</File>
+						<File Id="579446980" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01_10C4C929.wem</Path>
+						</File>
+						<File Id="776758619" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_ImpactPlayer_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4048245320" Name="Enemies_EvilSpitPlant_Bullet_NoImpact" ObjectPath="\Events\Default Work Unit\Enemies_EvilSpitPlant_Bullet_NoImpact">
+					<IncludedMemoryFiles>
+						<File Id="635319759" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Hurt_01_10C4C929.wem</Path>
+						</File>
+						<File Id="780226897" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Hurt_03_10C4C929.wem</Path>
+						</File>
+						<File Id="890960252" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Hurt_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Hurt_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2806865332" Name="Enemies_EvilSpitPlant_Charge" ObjectPath="\Events\Default Work Unit\Enemies_EvilSpitPlant_Charge">
+					<IncludedMemoryFiles>
+						<File Id="212198980" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_10C4C929.wem</Path>
+						</File>
+						<File Id="226511738" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Charge_03_10C4C929.wem</Path>
+						</File>
+						<File Id="694794196" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Charge_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Charge_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="814669190" Name="Enemies_EvilSpitPlant_Death" ObjectPath="\Events\Default Work Unit\Enemies_EvilSpitPlant_Death">
+					<IncludedMemoryFiles>
+						<File Id="630481532" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Death_04.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Death_04_10C4C929.wem</Path>
+						</File>
+						<File Id="926016053" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Death_06.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Death_06_10C4C929.wem</Path>
+						</File>
+						<File Id="982269580" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Death_05.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Death_05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4043274424" Name="Enemies_EvilSpitPlant_Death_Headfall" ObjectPath="\Events\Default Work Unit\Enemies_EvilSpitPlant_Death_Headfall">
+					<IncludedMemoryFiles>
+						<File Id="672121593" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Death_Headfall_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_01_10C4C929.wem</Path>
+						</File>
+						<File Id="798993131" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Death_Headfall_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_02_10C4C929.wem</Path>
+						</File>
+						<File Id="958454385" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Death_Headfall_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1970729147" Name="Enemies_EvilSpitPlant_Hurt" ObjectPath="\Events\Default Work Unit\Enemies_EvilSpitPlant_Hurt">
+					<IncludedMemoryFiles>
+						<File Id="54006985" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_HurtImpact_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_03_10C4C929.wem</Path>
+						</File>
+						<File Id="312675748" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_HurtImpact_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_02_10C4C929.wem</Path>
+						</File>
+						<File Id="482840293" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_HurtImpact_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2052458349" Name="Enemies_EvilSpitPlant_ShootBullet" ObjectPath="\Events\Default Work Unit\Enemies_EvilSpitPlant_ShootBullet">
+					<IncludedMemoryFiles>
+						<File Id="385075805" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Shoot_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Shoot_01_10C4C929.wem</Path>
+						</File>
+						<File Id="642721332" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Shoot_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Shoot_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1066088158" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Shoot_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Shoot_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3762732752" Name="Enemies_EvilSpitPlant_ShootLoop_Play" ObjectPath="\Events\Default Work Unit\Enemies_EvilSpitPlant_ShootLoop_Play">
+					<IncludedMemoryFiles>
+						<File Id="287412102" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_SpitPlant_Shoot_LP_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_SpitPlant_Shoot_LP_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2111214706" Name="Enemies_EvilSpitPlant_ShootLoop_Stop" ObjectPath="\Events\Default Work Unit\Enemies_EvilSpitPlant_ShootLoop_Stop"/>
+				<Event Id="1258303199" Name="Enemy_EvilCrawler_Death" ObjectPath="\Events\Default Work Unit\Enemy_EvilCrawler_Death">
+					<IncludedMemoryFiles>
+						<File Id="648613753" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Death_Vox_01_10C4C929.wem</Path>
+						</File>
+						<File Id="827790857" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Death_Vox_02_10C4C929.wem</Path>
+						</File>
+						<File Id="895808716" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Death_Vox_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Death_Vox_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3621593767" Name="Enemy_EvilCrawler_Eat" ObjectPath="\Events\Default Work Unit\Enemy_EvilCrawler_Eat">
+					<IncludedMemoryFiles>
+						<File Id="617147518" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Eat_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Eat_02_10C4C929.wem</Path>
+						</File>
+						<File Id="677577275" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Eat_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Eat_01_10C4C929.wem</Path>
+						</File>
+						<File Id="897255792" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Eat_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Eat_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3580182562" Name="Enemy_EvilCrawler_Explode" ObjectPath="\Events\Default Work Unit\Enemy_EvilCrawler_Explode">
+					<IncludedMemoryFiles>
+						<File Id="162792833" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Explode_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Explode_01_10C4C929.wem</Path>
+						</File>
+						<File Id="242880030" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Explode_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Explode_03_10C4C929.wem</Path>
+						</File>
+						<File Id="432191672" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Explode_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Explode_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3990952" Name="Enemy_EvilCrawler_Hurt" ObjectPath="\Events\Default Work Unit\Enemy_EvilCrawler_Hurt">
+					<IncludedMemoryFiles>
+						<File Id="39865818" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Hurt_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Hurt_02_10C4C929.wem</Path>
+						</File>
+						<File Id="42766963" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Hurt_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Hurt_01_10C4C929.wem</Path>
+						</File>
+						<File Id="452373859" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Hurt_Vox_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_03_10C4C929.wem</Path>
+						</File>
+						<File Id="730994795" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Hurt_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Hurt_03_10C4C929.wem</Path>
+						</File>
+						<File Id="813693371" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Hurt_Vox_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1067982684" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Hurt_Vox_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2135810184" Name="Enemy_EvilCrawler_Movement" ObjectPath="\Events\Default Work Unit\Enemy_EvilCrawler_Movement">
+					<IncludedMemoryFiles>
+						<File Id="240228049" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Move_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Move_01_10C4C929.wem</Path>
+						</File>
+						<File Id="823410882" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Move_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Move_03_10C4C929.wem</Path>
+						</File>
+						<File Id="950652521" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Crawler_Move_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Crawler_Move_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2758258135" Name="Enemy_EvilHead_Bite" ObjectPath="\Events\Default Work Unit\Enemy_EvilHead_Bite">
+					<IncludedMemoryFiles>
+						<File Id="269491480" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Bite_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Bite_03_10C4C929.wem</Path>
+						</File>
+						<File Id="499189681" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Bite_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Bite_02_10C4C929.wem</Path>
+						</File>
+						<File Id="987291754" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Bite_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Bite_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2340191741" Name="Enemy_EvilHead_Charge" ObjectPath="\Events\Default Work Unit\Enemy_EvilHead_Charge">
+					<IncludedMemoryFiles>
+						<File Id="201559530" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Charge_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Charge_03_10C4C929.wem</Path>
+						</File>
+						<File Id="414129758" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Charge_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Charge_02_10C4C929.wem</Path>
+						</File>
+						<File Id="498109230" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Charge_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Charge_01_10C4C929.wem</Path>
+						</File>
+						<File Id="644700457" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Charge.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Charge_10C4C929.wem</Path>
+						</File>
+						<File Id="792823064" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Charge_Bite.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Charge_Bite_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2283357753" Name="Enemy_EvilHead_Death" ObjectPath="\Events\Default Work Unit\Enemy_EvilHead_Death">
+					<IncludedMemoryFiles>
+						<File Id="13992095" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Death_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Death_01_10C4C929.wem</Path>
+						</File>
+						<File Id="386090111" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Death_Vox_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Death_Vox_03_10C4C929.wem</Path>
+						</File>
+						<File Id="608549773" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Death_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Death_02_10C4C929.wem</Path>
+						</File>
+						<File Id="631352675" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Death_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Death_03_10C4C929.wem</Path>
+						</File>
+						<File Id="929735157" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Death_Vox_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Death_Vox_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1034572841" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Death_Vox_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Death_Vox_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3260075118" Name="Enemy_EvilHead_Hover_Play" ObjectPath="\Events\Default Work Unit\Enemy_EvilHead_Hover_Play">
+					<IncludedMemoryFiles>
+						<File Id="489720883" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Hover_LP.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Hover_LP_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4261614160" Name="Enemy_EvilHead_Hover_Stop" ObjectPath="\Events\Default Work Unit\Enemy_EvilHead_Hover_Stop"/>
+				<Event Id="3999192250" Name="Enemy_EvilHead_Hurt" ObjectPath="\Events\Default Work Unit\Enemy_EvilHead_Hurt">
+					<IncludedMemoryFiles>
+						<File Id="94252514" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Hurt_03.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Hurt_03_10C4C929.wem</Path>
+						</File>
+						<File Id="391182289" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Hurt_02.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Hurt_02_10C4C929.wem</Path>
+						</File>
+						<File Id="493933333" Language="SFX">
+							<ShortName>Creatures\BAS_Evil_Head_Hurt_01.wav</ShortName>
+							<Path>SFX\Creatures\BAS_Evil_Head_Hurt_01_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1070022042" Name="Enemy_EvilHead_Movement" ObjectPath="\Events\Default Work Unit\Enemy_EvilHead_Movement"/>
+				<Event Id="1880981927" Name="Enemy_EvilHead_SpawnerDestroy" ObjectPath="\Events\Default Work Unit\Enemy_EvilHead_SpawnerDestroy"/>
+				<Event Id="4037905639" Name="Enemy_EvilHead_Telegraph" ObjectPath="\Events\Default Work Unit\Enemy_EvilHead_Telegraph"/>
+				<Event Id="2637251965" Name="Magic_Blast" ObjectPath="\Events\Default Work Unit\Magic_Blast"/>
+				<Event Id="1230192158" Name="Magic_Blast_Impact" ObjectPath="\Events\Default Work Unit\Magic_Blast_Impact"/>
+				<Event Id="3373889173" Name="Magic_Charge" ObjectPath="\Events\Default Work Unit\Magic_Charge"/>
+				<Event Id="2689787085" Name="Magic_Stop" ObjectPath="\Events\Default Work Unit\Magic_Stop"/>
+				<Event Id="2276042689" Name="Music_DungeonEnemyOnly" ObjectPath="\Events\Default Work Unit\Music_DungeonEnemyOnly"/>
+				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Default Work Unit\Music_Region"/>
+				<Event Id="1817926999" Name="Object_Rune_Charge_Play" ObjectPath="\Events\Default Work Unit\Object_Rune_Charge_Play"/>
+				<Event Id="547945861" Name="Object_Rune_Charge_Stop" ObjectPath="\Events\Default Work Unit\Object_Rune_Charge_Stop"/>
+				<Event Id="1499896846" Name="Pickup_Coins" ObjectPath="\Events\Default Work Unit\Pickup_Coins"/>
+				<Event Id="509318909" Name="Pickup_ItemType" ObjectPath="\Events\Default Work Unit\Pickup_ItemType"/>
+				<Event Id="3012415428" Name="Pickup_WeaponType" ObjectPath="\Events\Default Work Unit\Pickup_WeaponType"/>
+				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\Player_Death"/>
+				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Default Work Unit\Player_Health"/>
+				<Event Id="3842195348" Name="Player_Hurt_Vox" ObjectPath="\Events\Default Work Unit\Player_Hurt_Vox"/>
+				<Event Id="4074966752" Name="Player_PlayerFootstep" ObjectPath="\Events\Default Work Unit\Player_PlayerFootstep"/>
+				<Event Id="3671932190" Name="Player_Weapon_Swing" ObjectPath="\Events\Default Work Unit\Player_Weapon_Swing"/>
+				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Default Work Unit\Player_WeaponImpact"/>
+				<Event Id="3808743129" Name="Player_WeaponSwing" ObjectPath="\Events\Default Work Unit\Player_WeaponSwing"/>
+				<Event Id="3240473869" Name="Quest_Complete" ObjectPath="\Events\Default Work Unit\Quest_Complete"/>
+				<Event Id="844130829" Name="Quest_CompleteCollection" ObjectPath="\Events\Default Work Unit\Quest_CompleteCollection"/>
+				<Event Id="2681420560" Name="Stinger_GetWeapon" ObjectPath="\Events\Default Work Unit\Stinger_GetWeapon"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
+				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
+					<IncludedMemoryFiles>
+						<File Id="269251227" Language="SFX">
+							<ShortName>UI\BAS_Button_Over.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\Default Work Unit\UI_Button_Enter">
+					<IncludedMemoryFiles>
+						<File Id="163811544" Language="SFX">
+							<ShortName>UI\BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\Default Work Unit\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="163811544" Language="SFX">
+							<ShortName>UI\BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\Default Work Unit\UI_Button_Up">
+					<IncludedMemoryFiles>
+						<File Id="269251227" Language="SFX">
+							<ShortName>UI\BAS_Button_Over.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\Default Work Unit\UI_Inventory_Close"/>
+				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\Default Work Unit\UI_Inventory_Open">
+					<IncludedMemoryFiles>
+						<File Id="900050537" Language="SFX">
+							<ShortName>UI\BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\Default Work Unit\UI_Inventory_Roll"/>
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\Default Work Unit\UI_Menu_Pause">
+					<IncludedMemoryFiles>
+						<File Id="971609785" Language="SFX">
+							<ShortName>UI\BAS_Button_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\Default Work Unit\UI_Menu_Resume">
+					<IncludedMemoryFiles>
+						<File Id="607768939" Language="SFX">
+							<ShortName>UI\BAS_Button_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\Default Work Unit\UI_Menu_Select">
+					<IncludedMemoryFiles>
+						<File Id="708289879" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Select.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Select_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\Default Work Unit\UI_Menu_Teleport">
+					<IncludedMemoryFiles>
+						<File Id="900050537" Language="SFX">
+							<ShortName>UI\BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3567233235" Name="UI_Quest_Roll_Close" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Close"/>
+				<Event Id="1399152593" Name="UI_Quest_Roll_Hide" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Hide"/>
+				<Event Id="2702327653" Name="UI_Quest_Roll_Open" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Open"/>
+				<Event Id="3524454690" Name="UI_Quest_Roll_Show" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Show"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="152105657" Language="SFX" Hash="3141541602">
+			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
+			<ShortName>TitleScreen</ShortName>
+			<Path>TitleScreen.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Default Work Unit\Ambient_Region_Woodlands"/>
+				<Event Id="1532327793" Name="Music_TitleScreen" ObjectPath="\Events\Default Work Unit\Music_TitleScreen">
+					<IncludedMemoryFiles>
+						<File Id="66374312" Language="SFX">
+							<ShortName>Music\TitleScreen_120BPM_4_4_L41M_P2M.wav</ShortName>
+							<Path>SFX\Music\TitleScreen_120BPM_4_4_L41M_P2M_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
+					<IncludedMemoryFiles>
+						<File Id="269251227" Language="SFX">
+							<ShortName>UI\BAS_Button_Over.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="18309885" Name="UI_Button_Enter" ObjectPath="\Events\Default Work Unit\UI_Button_Enter">
+					<IncludedMemoryFiles>
+						<File Id="163811544" Language="SFX">
+							<ShortName>UI\BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\Default Work Unit\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="163811544" Language="SFX">
+							<ShortName>UI\BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\Default Work Unit\UI_Button_Up">
+					<IncludedMemoryFiles>
+						<File Id="269251227" Language="SFX">
+							<ShortName>UI\BAS_Button_Over.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\Default Work Unit\UI_Inventory_Close"/>
+				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\Default Work Unit\UI_Inventory_Open">
+					<IncludedMemoryFiles>
+						<File Id="900050537" Language="SFX">
+							<ShortName>UI\BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\Default Work Unit\UI_Inventory_Roll"/>
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\Default Work Unit\UI_Menu_Pause">
+					<IncludedMemoryFiles>
+						<File Id="971609785" Language="SFX">
+							<ShortName>UI\BAS_Button_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\Default Work Unit\UI_Menu_Resume">
+					<IncludedMemoryFiles>
+						<File Id="607768939" Language="SFX">
+							<ShortName>UI\BAS_Button_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\Default Work Unit\UI_Menu_Select">
+					<IncludedMemoryFiles>
+						<File Id="708289879" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Select.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Select_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\Default Work Unit\UI_Menu_Teleport">
+					<IncludedMemoryFiles>
+						<File Id="900050537" Language="SFX">
+							<ShortName>UI\BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3567233235" Name="UI_Quest_Roll_Close" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Close"/>
+				<Event Id="1399152593" Name="UI_Quest_Roll_Hide" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Hide"/>
+				<Event Id="2702327653" Name="UI_Quest_Roll_Open" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Open"/>
+				<Event Id="3524454690" Name="UI_Quest_Roll_Show" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Show"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="608898761" Language="SFX" Hash="3708923524">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dungeon</ObjectPath>
+			<ShortName>Dungeon</ShortName>
+			<Path>Dungeon.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Default Work Unit\Ambient_Region_Dungeon"/>
+				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Default Work Unit\Destruction_Rock_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="419346019" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_02.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem</Path>
+						</File>
+						<File Id="629239930" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_01.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1008992106" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_03.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="441746695">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1421251628" Language="SFX" Hash="2263064788">
+			<ObjectPath>\SoundBanks\Default Work Unit\Woodlands</ObjectPath>
+			<ShortName>Woodlands</ShortName>
+			<Path>Woodlands.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Default Work Unit\Ambient_Region_Woodlands"/>
+				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Default Work Unit\Ambient_Waterfall">
+					<IncludedMemoryFiles>
+						<File Id="152023859" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Waterfall.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1850388778" Language="SFX" Hash="4184615166">
+			<ObjectPath>\SoundBanks\Default Work Unit\Desert</ObjectPath>
+			<ShortName>Desert</ShortName>
+			<Path>Desert.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3408705206" Name="Ambient_Region_Desert" ObjectPath="\Events\Default Work Unit\Ambient_Region_Desert"/>
+				<Event Id="578570680" Name="Destruction_Volcanic_Boulder_Impact" ObjectPath="\Events\Default Work Unit\Destruction_Volcanic_Boulder_Impact">
+					<IncludedMemoryFiles>
+						<File Id="285808865" Language="SFX">
+							<ShortName>Destruction\Volcanic Boulder\DebrisDirt.wav</ShortName>
+							<Path>SFX\Destruction\Volcanic Boulder\DebrisDirt_10C4C929.wem</Path>
+						</File>
+						<File Id="337745466" Language="SFX">
+							<ShortName>Destruction\Volcanic Boulder\Explosion.wav</ShortName>
+							<Path>SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2201105581" Language="SFX" Hash="3890110750">
+			<ObjectPath>\SoundBanks\Default Work Unit\Credits</ObjectPath>
+			<ShortName>Credits</ShortName>
+			<Path>Credits.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Default Work Unit\Music_Credits">
+					<IncludedMemoryFiles>
+						<File Id="24588650" Language="SFX">
+							<ShortName>Music\Credits_120BPM_4_4_L8M_P0.wav</ShortName>
+							<Path>SFX\Music\Credits_120BPM_4_4_L8M_P0_5EDDC952.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2482365692" Language="SFX" Hash="1548947692">
+			<ObjectPath>\SoundBanks\Default Work Unit\PineForest</ObjectPath>
+			<ShortName>PineForest</ShortName>
+			<Path>PineForest.bnk</Path>
+			<IncludedEvents>
+				<Event Id="808171864" Name="Ambient_Region_PineForest" ObjectPath="\Events\Default Work Unit\Ambient_Region_PineForest"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3945572659" Language="SFX" Hash="2940611088">
+			<ObjectPath>\SoundBanks\Default Work Unit\Village</ObjectPath>
+			<ShortName>Village</ShortName>
+			<Path>Village.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Default Work Unit\Ambient_Region_Village"/>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Default Work Unit\Ambient_River">
+					<IncludedMemoryFiles>
+						<File Id="18508739" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Water_River.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Water_River_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Default Work Unit\Ambient_Windmill">
+					<IncludedMemoryFiles>
+						<File Id="200344808" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_03.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_03_10C4C929.wem</Path>
+						</File>
+						<File Id="253068894" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_01.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_01_0D95D932.wem</Path>
+						</File>
+						<File Id="702538557" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="4122393694" Language="SFX" Hash="2522267542">
+			<ObjectPath>\SoundBanks\Default Work Unit\Cave</ObjectPath>
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Default Work Unit\Ambient_Region_Cave"/>
+				<Event Id="2644063196" Name="Ambient_WaterDrop" ObjectPath="\Events\Default Work Unit\Ambient_WaterDrop">
+					<IncludedMemoryFiles>
+						<File Id="251067468" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_02_10C4C929.wem</Path>
+						</File>
+						<File Id="294056133" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_05.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_05_10C4C929.wem</Path>
+						</File>
+						<File Id="726968632" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_01.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_01_10C4C929.wem</Path>
+						</File>
+						<File Id="770635657" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_03.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1030438884" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_04_10C4C929.wem</Path>
+						</File>
+						<File Id="1065114496" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Default Work Unit\Destruction_Crystal_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="249237975" Language="SFX">
+							<ShortName>Destruction\BAS_Crystals_Destroy.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -102,6 +102,508 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_All" ID="{F3D0B85E-18B1-4F9A-9140-FA138B311539}">
+					<ChildrenList>
+						<Action Name="" ID="{2A04F71C-ECEE-4B3C-9F38-D9C7796AB650}" ShortID="861825580">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Region_Woodlands" ID="{E99E7237-7ACA-4E8D-A36E-CA0824AD33DD}"/>
+				<Event Name="Music_Credits" ID="{6C5A0165-3DCB-433D-B69D-8A96E199C3EC}">
+					<ChildrenList>
+						<Action Name="" ID="{EF553B95-13B2-4D9F-AB8E-72675F7B2308}" ShortID="389606584">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Credits_120BPM_4_4_L8M_P0" ID="{8063C2AB-5F0B-45B0-8C02-8B07B183B1CA}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Region_Desert" ID="{155352B0-7CEA-49FF-8329-F10D98991717}"/>
+				<Event Name="Ambient_Region_Cave" ID="{F17CEEBE-BAB8-4F5D-A135-507EDF3FF22E}"/>
+				<Event Name="Ambient_Region_Dungeon" ID="{F5CAC31D-C4DE-4017-9E96-CC52CE778A99}"/>
+				<Event Name="Ambient_Region_PineForest" ID="{46C5CEA3-6A22-4530-8748-43928AF91966}"/>
+				<Event Name="Ambient_Region_Village" ID="{CA4FF892-F2C7-4D08-85B9-2826484B5570}"/>
+				<Event Name="UI_Inventory_Open" ID="{8F32125E-C349-4B2E-9B4B-29F3E612D774}">
+					<ChildrenList>
+						<Action Name="" ID="{3D2A4231-4E96-4EF9-887E-FE11E682C674}" ShortID="512554591">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Button_Teleport" ID="{51BD5A35-5A3A-4379-BCEA-A3FAF4A9331D}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Inventory_Close" ID="{9210AEF5-C6CD-4E9F-9875-80768A27BFC2}"/>
+				<Event Name="UI_Inventory_Roll" ID="{89C72DF7-9F00-4847-BAEE-9CD3F7BCE816}"/>
+				<Event Name="UI_Quest_Roll_Show" ID="{B239A16D-AEA5-4C00-A1DE-7C72FF1086E2}"/>
+				<Event Name="UI_Quest_Roll_Open" ID="{96245503-A269-4590-A85C-6C1EE1373B7F}"/>
+				<Event Name="UI_Quest_Roll_Close" ID="{4711DCA4-BAA8-4A92-B12E-3295F7FDFED3}"/>
+				<Event Name="UI_Quest_Roll_Hide" ID="{9925A6DD-FB0E-486E-A953-C0E331394B66}"/>
+				<Event Name="Quest_Complete" ID="{59CDD875-3A77-4EC4-8D8E-418F3BBC1EFC}"/>
+				<Event Name="Quest_CompleteCollection" ID="{773DDF6E-1001-494C-86BF-4569DFC395C4}"/>
+				<Event Name="Music_Region" ID="{BD966925-6CB3-42A6-B9BA-82A82758B65A}"/>
+				<Event Name="Music_DungeonEnemyOnly" ID="{731D5374-A059-4156-B3E0-09D40FF7B3F7}"/>
+				<Event Name="Stinger_GetWeapon" ID="{1034D966-F019-4399-8758-F17D4A92FBB2}"/>
+				<Event Name="Ambient_Campfire_Play" ID="{861E5FF6-700B-450A-B51A-765394CA8DCA}">
+					<ChildrenList>
+						<Action Name="" ID="{28E0C6D8-672B-4AF3-8A99-3CFFE7D19AAE}" ShortID="901206701">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Campfire" ID="{362BAFCC-7FCC-45FC-9D18-92864D4071BD}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Campfire_Stop" ID="{6AA03D1F-4ECA-428A-98AF-3412E5CAB8FE}">
+					<ChildrenList>
+						<Action Name="" ID="{7786F60F-2979-4C25-B086-EC12795AC09D}" ShortID="346946982">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Campfire" ID="{362BAFCC-7FCC-45FC-9D18-92864D4071BD}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Crystal_Hum" ID="{BC56DFA5-354A-4F1C-9FF6-01359D43698A}">
+					<ChildrenList>
+						<Action Name="" ID="{94EB6471-0FDF-4963-9614-E6FF773023D9}" ShortID="264773623">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Crystal_Ringing" ID="{8CDD0D11-4E34-4976-9383-174950C98A4B}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Lava" ID="{16D91D9A-37A1-4BF8-A31A-8625918C5A7F}">
+					<ChildrenList>
+						<Action Name="" ID="{1DA49434-64D5-4853-B12F-478D87BA9782}" ShortID="692918673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Lava" ID="{A579782F-86DB-4728-96DF-9EE1CD2EE1F8}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_River" ID="{1EFF109B-2839-40F3-868D-EB6449722EAB}">
+					<ChildrenList>
+						<Action Name="" ID="{9945F539-A528-4ED2-8071-E466C64CE47E}" ShortID="647268422">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Water_River" ID="{025A1F82-1253-4290-A85A-1381F2FE95F0}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Torch" ID="{9FD0514F-EB09-4096-B61A-AF9477A46D43}">
+					<ChildrenList>
+						<Action Name="" ID="{A5174AB5-2C5E-4DA6-A607-3AF1F97B3DB9}" ShortID="813331589">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Torch" ID="{9A3EDA20-B6AF-4C9A-B21A-3B0B0E96101B}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Waterfall" ID="{CE29DD12-EEF7-4262-BD81-6AA549877A66}">
+					<ChildrenList>
+						<Action Name="" ID="{C059E0B0-C87D-4C41-82FB-350658CE4BCD}" ShortID="432601109">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Waterfall" ID="{48842BB1-6F1B-45CA-B9A9-48C9B2C99538}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Windmill" ID="{454257BB-3829-481F-AAFD-13EEC1E9C695}">
+					<ChildrenList>
+						<Action Name="" ID="{7614504A-6E80-4704-9DCE-8D29A57F6DE6}" ShortID="605503456">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WindMill" ID="{26B873CB-B4D4-46B3-987C-E19A6C633BAA}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1AAE21D6-CA67-463D-8DC3-7B18A3921A79}" ShortID="550597854">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_WindMillBlade_01" ID="{4EA067D7-357C-4099-9C72-2BD891503D50}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_WaterDrop" ID="{46227ACA-22DB-4A50-A697-91E35974F682}">
+					<ChildrenList>
+						<Action Name="" ID="{B9B1D3FD-1C15-41D0-9CBE-CC6F78C31D68}" ShortID="912085479">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterDrops" ID="{9E6731C2-F323-4179-89EB-0B5592CEAC10}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Container" ID="{8671A5E0-38AC-4789-B7CE-F6F92A4D1586}">
+					<ChildrenList>
+						<Action Name="" ID="{31918503-05A1-4AB5-B1C1-C771476D1B46}" ShortID="354534759">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crate" ID="{283427A0-F7AE-4BF5-A011-499BAB62D7E7}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Crystal_Destroy" ID="{6D24E012-D180-4FDC-9316-4C856852AD1F}">
+					<ChildrenList>
+						<Action Name="" ID="{FFE3C001-E9FC-4974-8401-A9C08B828E68}" ShortID="537195864">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Crystals_Destroy" ID="{0F1FA1DE-1203-4469-8C65-F495561A2453}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Rock_Destroy" ID="{8E919CB7-EFF2-40F3-A439-A993D94336CE}">
+					<ChildrenList>
+						<Action Name="" ID="{D271F07F-CC85-4506-AE7B-A0F9CA761B9F}" ShortID="919813116">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rocks" ID="{6A14A1E2-BC06-468C-8564-422AAF69D8D0}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Volcanic_Boulder_Impact" ID="{814B3737-5EE7-4858-8036-E846644AC52E}">
+					<ChildrenList>
+						<Action Name="" ID="{B11AD0A5-D273-463F-AC7D-C0B8102E1D3B}" ShortID="1015524962">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{22388DA8-AD34-4CEB-B7BD-22767D3D22BC}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DebrisDirt" ID="{D3036947-85DD-4294-B71C-5EA0AA8A7F75}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{909172AA-1917-4F5E-8A38-9953637FCCE2}" ShortID="847136923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explosion" ID="{36812E41-69BF-499F-95F6-9E3E3E191BBC}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemies_EvilSpitPlant_ShootBullet" ID="{4A0F8D56-E33A-446D-903A-82B9ABE92FDB}">
+					<ChildrenList>
+						<Action Name="" ID="{01B735B0-87AC-4FE7-8E3D-4FED7D22312A}" ShortID="155884564">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plant_Shoot" ID="{1FAB5DC3-E2FB-408E-89F6-7C04B141E0AF}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemies_EvilSpitPlant_Death_Headfall" ID="{D5BDC356-BC8E-4F3A-A0CB-017CFB477956}">
+					<ChildrenList>
+						<Action Name="" ID="{8E35D735-0DE4-4FDB-901A-4922EB68C3E8}" ShortID="367975518">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plant_Headfall" ID="{63B7B079-81AE-4FB9-B2AF-3B00167DF4B6}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemies_EvilSpitPlant_Charge" ID="{6552C8B6-C142-45A0-87E3-352B7EDE011A}">
+					<ChildrenList>
+						<Action Name="" ID="{8151D163-C7C1-4AF1-9C77-0C490BE175CA}" ShortID="674011117">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plant_Charge" ID="{4B5260C3-75C3-4BB7-8232-4DD66D823302}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemies_EvilSpitPlant_ShootLoop_Stop" ID="{BAFBC82F-74A7-4C74-A5BD-6FA034B9DA45}">
+					<ChildrenList>
+						<Action Name="" ID="{C5E2C3E3-AFBC-451D-9DFB-8E4AE42EC7A9}" ShortID="675369788">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Evil_SpitPlant_Shoot_LP_01" ID="{756AF0AB-35B0-4DE3-BDF8-A3F02F5F5D3F}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemies_EvilSpitPlant_Bullet_NoImpact" ID="{6BFFDD06-A287-4663-942E-0C36144BBBC3}">
+					<ChildrenList>
+						<Action Name="" ID="{FB53EF35-8743-43EE-95CC-A958155B5B1C}" ShortID="429257159">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plant_NoImpact" ID="{5F8DD691-1803-40B1-84C4-43F570075846}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemies_EvilSpitPlant_ShootLoop_Play" ID="{B6F7F01D-C6CC-4EC6-A862-CFD4D76271B0}">
+					<ChildrenList>
+						<Action Name="" ID="{FCFBA1F3-151B-4EE7-9605-240B4A1B56B8}" ShortID="224726760">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Evil_SpitPlant_Shoot_LP_01" ID="{756AF0AB-35B0-4DE3-BDF8-A3F02F5F5D3F}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemies_EvilSpitPlant_Death" ID="{E7159A9F-E445-4C4E-9B1E-2081A35C6898}">
+					<ChildrenList>
+						<Action Name="" ID="{1FE838C9-0619-4755-8054-5D6C28511E2A}" ShortID="652382106">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plant_Death" ID="{FA77F108-C65E-4C52-B9DD-2FF6361E91B0}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemies_EvilSpitPlant_Hurt" ID="{F40CB6A7-4E74-40EA-8523-3AB0BABCC1B9}">
+					<ChildrenList>
+						<Action Name="" ID="{C4542DBB-5105-4893-A7EF-26E69D77A805}" ShortID="883068555">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plant_Hurt" ID="{B2F2480B-C3E5-4383-99ED-3CF48BC40E1D}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemies_EvilSpitPlant_Bullet_Impact" ID="{CA02DD01-852E-4947-8175-2C469784F721}">
+					<ChildrenList>
+						<Action Name="" ID="{0F53A4E4-CB9A-4C44-B889-3A78C1297EE5}" ShortID="565092303">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Plant_Impact" ID="{066947CA-ECC4-46E2-94F7-F15B0E5F5C1C}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilCrawler_Hurt" ID="{12EA9539-5D75-4996-941C-E7DB72749D2A}">
+					<ChildrenList>
+						<Action Name="" ID="{21D87917-10CE-4C23-BF6E-7A62C7E224A2}" ShortID="179139056">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crawler_Hurt" ID="{3ED85D99-D9F7-47AB-A1F7-4C1C6B5844CD}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E0A3BC91-A983-4102-A10D-536E2C0F28C3}" ShortID="352383443">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crawler_Hurt_Vox" ID="{769C5D34-929E-40D2-A9CE-362239136424}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilCrawler_Death" ID="{C7BDF04C-A4E6-4D4B-B461-03E8A7FDA70D}">
+					<ChildrenList>
+						<Action Name="" ID="{82841614-74E8-475E-93D7-F77ADC58ECD4}" ShortID="478308461">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crawler_Death" ID="{E84EB019-F230-4BFA-8939-CDEC59653441}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilCrawler_Movement" ID="{8D61A6BD-BFB2-4C73-867C-EE27C9DFEE05}">
+					<ChildrenList>
+						<Action Name="" ID="{986EA661-A363-42E6-9B2B-C79682857C14}" ShortID="998698099">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crawler_Move" ID="{C3A79404-6238-4333-9297-9C640720977C}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilCrawler_Eat" ID="{3F1FD3C2-F371-4902-AE34-B5302CAE24BD}">
+					<ChildrenList>
+						<Action Name="" ID="{3BB17061-3D1A-44B4-A908-A454A31DD1CD}" ShortID="671783745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crawler_Eat" ID="{63C79AAB-0AEF-4896-BA94-1AACC20D4B2F}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilCrawler_Explode" ID="{242B4C79-0C27-40C6-8161-9D9FFCA65F7D}">
+					<ChildrenList>
+						<Action Name="" ID="{4E1345AA-390D-4775-B9F0-980CC2765340}" ShortID="811100412">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crawler_Explode" ID="{45F7466C-08D7-4771-A75E-22C1B317011B}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilHead_Charge" ID="{F340539B-40DD-464B-8C95-EF46E294BE28}">
+					<ChildrenList>
+						<Action Name="" ID="{3409E26A-40E7-4B47-95BA-5DA8254A4230}" ShortID="698608842">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Head_Charge_Seq" ID="{1BC1E46A-2549-4CE3-9A50-EF20C0382830}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{74125B88-2655-4A16-B2C4-3BCAD81F73BA}" ShortID="587253081">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Evil_Head_Charge_Bite" ID="{A8EBABA3-5198-406A-819B-FDDB84C36456}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilHead_Movement" ID="{6B4A344D-0CD5-43CB-BEC4-BEB7E8EBF67E}"/>
+				<Event Name="Enemy_EvilHead_Hover_Play" ID="{5EC0AA60-01F3-4E1F-A57B-8F05D74A17D7}">
+					<ChildrenList>
+						<Action Name="" ID="{864D9C46-F4D5-4F70-A002-E6038BFDB370}" ShortID="1023888736">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Evil_Head_Hover_LP" ID="{E8629B91-A44D-4628-A79B-007EA7E84ABF}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilHead_Telegraph" ID="{59C87E02-5488-4459-A7FF-04DC6BEAAED6}"/>
+				<Event Name="Enemy_EvilHead_Hurt" ID="{B84ED242-7D5B-4CB1-B3C7-3717C74AB3C8}">
+					<ChildrenList>
+						<Action Name="" ID="{EF8C2EBF-AF88-4706-B32A-269CFDA71EEE}" ShortID="414733612">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Head_Hurt" ID="{694588A3-E6B8-456C-AA54-8D5BD938C899}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilHead_Death" ID="{9B711139-D067-4ADD-AAD6-EF36B2B93825}">
+					<ChildrenList>
+						<Action Name="" ID="{2B078FC4-DC1F-45DD-B29A-0DA232B4D35E}" ShortID="923609435">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Head_Death" ID="{A8594AA1-B2A6-4DBA-A910-2EF96F64BF24}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9AE4840B-80B7-40E8-A1FF-DC174C820894}" ShortID="250056499">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Head_Vox" ID="{AAB052B1-84CE-49F2-8024-3B6A46E97B2F}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilHead_Bite" ID="{61C1BAF5-44FB-4B26-B15A-E49154FCD4D2}">
+					<ChildrenList>
+						<Action Name="" ID="{743022D9-34EC-4BD7-813B-FEBA2CCAE3A6}" ShortID="551647830">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Head_Bite" ID="{09A02590-F343-46DD-A126-CBB5D812CB8A}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Enemy_EvilHead_SpawnerDestroy" ID="{F7C27D72-3121-4324-BABE-73FA87867BF2}"/>
+				<Event Name="Enemy_EvilHead_Hover_Stop" ID="{3C490732-65E6-478F-8C2D-507D2AD22662}">
+					<ChildrenList>
+						<Action Name="" ID="{A4F5CEAA-25B1-4B9E-AD01-3E4FCA15D6ED}" ShortID="324515749">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BAS_Evil_Head_Hover_LP" ID="{E8629B91-A44D-4628-A79B-007EA7E84ABF}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pickup_Coins" ID="{5DEE61FB-7E8D-402F-98AE-A056AFFF4F10}"/>
+				<Event Name="Pickup_ItemType" ID="{2A0389EA-6A75-4F23-83CB-B52A39848048}"/>
+				<Event Name="Pickup_WeaponType" ID="{E1583863-624D-4ED8-88FC-EC3078BAD946}"/>
+				<Event Name="Player_Health" ID="{9889E6C7-41C8-4894-8172-2C2835821C1E}"/>
+				<Event Name="Player_WeaponImpact" ID="{A18A1F00-0EAF-408D-BA5C-CDA1CB367DAC}"/>
+				<Event Name="Player_WeaponSwing" ID="{3E4ED2A3-EC73-4DAC-8E55-DFC100FEC431}"/>
+				<Event Name="Player_PlayerFootstep" ID="{531003F0-416B-4589-82D7-611D7B18583F}"/>
+				<Event Name="Magic_Charge" ID="{719FF747-B0E4-41AC-8E1A-317B441D39A2}"/>
+				<Event Name="Magic_Blast" ID="{B509BAFF-DEEB-4F45-BE27-A2DD42ACDB97}"/>
+				<Event Name="Magic_Stop" ID="{4B441AB7-76C7-4B06-9749-45B5575ADA59}"/>
+				<Event Name="Magic_Blast_Impact" ID="{BC7A3C9A-7022-432E-9219-C8552B33DA82}"/>
+				<Event Name="Object_Rune_Charge_Play" ID="{5AA67006-F9BF-4869-9319-B7DA59BAFD55}"/>
+				<Event Name="Object_Rune_Charge_Stop" ID="{43D284CC-0EDA-47E2-8C9C-16E6CCAEED6A}"/>
+				<Event Name="Ambient_Core_Shield_Alive" ID="{DB7FD366-C860-4537-AEB6-8B56447BBFDA}"/>
+				<Event Name="Ambient_Core_Shield_1" ID="{D092B481-08DD-4CF9-87CC-7B9DBBBDA70E}"/>
+				<Event Name="Ambient_Core_Shield_2" ID="{94828658-81C1-41C8-83BD-66A32486B07F}"/>
+				<Event Name="Ambient_Core_Shield_3" ID="{7C08373E-18FA-4416-8872-3E7252251DB7}"/>
+				<Event Name="Ambient_Core_Shield_Destroyed" ID="{691192BB-6B3D-49C4-BB74-BF48E020DE9B}"/>
+				<Event Name="Destruction_Core_ShieldBreak" ID="{0811D1EB-FA70-47D5-B9C7-460B61E96DA7}"/>
+				<Event Name="Destruction_Core_Explosion" ID="{538F26FA-FF52-4B8D-9873-E684CDB9243E}"/>
+				<Event Name="Destruction_Core_HorribleSound" ID="{97C6CA92-3EB5-42B3-9617-B8BACC7B4716}"/>
+				<Event Name="Destruction_Core_FinalReveal" ID="{E4DA7351-0517-43CC-987B-2477E9FFF38B}"/>
+				<Event Name="Player_Weapon_Swing" ID="{71475CA1-B929-46D3-8B8A-7E6B1704C04F}"/>
+				<Event Name="Player_Hurt_Vox" ID="{02DB54F5-4780-4C00-9216-5E59A493A234}"/>
+				<Event Name="Player_Death" ID="{780E50D1-7230-40B0-A2DD-99EBA3ADB7D2}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

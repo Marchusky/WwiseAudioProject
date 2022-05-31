@@ -1,0 +1,152 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3990952	Enemy_EvilCrawler_Hurt			\Default Work Unit\Enemy_EvilCrawler_Hurt	
+	15662850	UI_Button_Up			\Default Work Unit\UI_Button_Up	
+	18309885	UI_Button_Enter			\Default Work Unit\UI_Button_Enter	
+	100151336	Ambient_Campfire_Stop			\Default Work Unit\Ambient_Campfire_Stop	
+	120976108	Ambient_Torch			\Default Work Unit\Ambient_Torch	
+	156563189	UI_Button_Down			\Default Work Unit\UI_Button_Down	
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	509318909	Pickup_ItemType			\Default Work Unit\Pickup_ItemType	
+	547945861	Object_Rune_Charge_Stop			\Default Work Unit\Object_Rune_Charge_Stop	
+	750089663	UI_Menu_Teleport			\Default Work Unit\UI_Menu_Teleport	
+	814669190	Enemies_EvilSpitPlant_Death			\Default Work Unit\Enemies_EvilSpitPlant_Death	
+	844130829	Quest_CompleteCollection			\Default Work Unit\Quest_CompleteCollection	
+	1070022042	Enemy_EvilHead_Movement			\Default Work Unit\Enemy_EvilHead_Movement	
+	1230192158	Magic_Blast_Impact			\Default Work Unit\Magic_Blast_Impact	
+	1258303199	Enemy_EvilCrawler_Death			\Default Work Unit\Enemy_EvilCrawler_Death	
+	1378810117	Ambient_Core_Shield_1			\Default Work Unit\Ambient_Core_Shield_1	
+	1378810118	Ambient_Core_Shield_2			\Default Work Unit\Ambient_Core_Shield_2	
+	1378810119	Ambient_Core_Shield_3			\Default Work Unit\Ambient_Core_Shield_3	
+	1389069565	Ambient_Core_Shield_Destroyed			\Default Work Unit\Ambient_Core_Shield_Destroyed	
+	1399152593	UI_Quest_Roll_Hide			\Default Work Unit\UI_Quest_Roll_Hide	
+	1464993479	UI_Menu_Resume			\Default Work Unit\UI_Menu_Resume	
+	1499896846	Pickup_Coins			\Default Work Unit\Pickup_Coins	
+	1615265847	Ambient_Core_Shield_Alive			\Default Work Unit\Ambient_Core_Shield_Alive	
+	1751541218	Destruction_Core_HorribleSound			\Default Work Unit\Destruction_Core_HorribleSound	
+	1775237669	Enemies_EvilSpitPlant_Bullet_Impact			\Default Work Unit\Enemies_EvilSpitPlant_Bullet_Impact	
+	1817926999	Object_Rune_Charge_Play			\Default Work Unit\Object_Rune_Charge_Play	
+	1880981927	Enemy_EvilHead_SpawnerDestroy			\Default Work Unit\Enemy_EvilHead_SpawnerDestroy	
+	1970729147	Enemies_EvilSpitPlant_Hurt			\Default Work Unit\Enemies_EvilSpitPlant_Hurt	
+	2052458349	Enemies_EvilSpitPlant_ShootBullet			\Default Work Unit\Enemies_EvilSpitPlant_ShootBullet	
+	2095238286	Destruction_Core_ShieldBreak			\Default Work Unit\Destruction_Core_ShieldBreak	
+	2111214706	Enemies_EvilSpitPlant_ShootLoop_Stop			\Default Work Unit\Enemies_EvilSpitPlant_ShootLoop_Stop	
+	2135810184	Enemy_EvilCrawler_Movement			\Default Work Unit\Enemy_EvilCrawler_Movement	
+	2199611969	UI_Inventory_Open			\Default Work Unit\UI_Inventory_Open	
+	2276042689	Music_DungeonEnemyOnly			\Default Work Unit\Music_DungeonEnemyOnly	
+	2278290679	UI_Inventory_Close			\Default Work Unit\UI_Inventory_Close	
+	2283357753	Enemy_EvilHead_Death			\Default Work Unit\Enemy_EvilHead_Death	
+	2325560497	UI_Button_Exit			\Default Work Unit\UI_Button_Exit	
+	2340191741	Enemy_EvilHead_Charge			\Default Work Unit\Enemy_EvilHead_Charge	
+	2355650095	Ambient_Crystal_Hum			\Default Work Unit\Ambient_Crystal_Hum	
+	2637251965	Magic_Blast			\Default Work Unit\Magic_Blast	
+	2681420560	Stinger_GetWeapon			\Default Work Unit\Stinger_GetWeapon	
+	2689787085	Magic_Stop			\Default Work Unit\Magic_Stop	
+	2702327653	UI_Quest_Roll_Open			\Default Work Unit\UI_Quest_Roll_Open	
+	2758258135	Enemy_EvilHead_Bite			\Default Work Unit\Enemy_EvilHead_Bite	
+	2806865332	Enemies_EvilSpitPlant_Charge			\Default Work Unit\Enemies_EvilSpitPlant_Charge	
+	3012415428	Pickup_WeaponType			\Default Work Unit\Pickup_WeaponType	
+	3083087645	Player_Death			\Default Work Unit\Player_Death	
+	3237189652	UI_Menu_Pause			\Default Work Unit\UI_Menu_Pause	
+	3240473869	Quest_Complete			\Default Work Unit\Quest_Complete	
+	3250765487	Destruction_Core_Explosion			\Default Work Unit\Destruction_Core_Explosion	
+	3260075118	Enemy_EvilHead_Hover_Play			\Default Work Unit\Enemy_EvilHead_Hover_Play	
+	3373889173	Magic_Charge			\Default Work Unit\Magic_Charge	
+	3455175321	Destruction_Core_FinalReveal			\Default Work Unit\Destruction_Core_FinalReveal	
+	3474566310	UI_Menu_Select			\Default Work Unit\UI_Menu_Select	
+	3524454690	UI_Quest_Roll_Show			\Default Work Unit\UI_Quest_Roll_Show	
+	3567233235	UI_Quest_Roll_Close			\Default Work Unit\UI_Quest_Roll_Close	
+	3580182562	Enemy_EvilCrawler_Explode			\Default Work Unit\Enemy_EvilCrawler_Explode	
+	3621593767	Enemy_EvilCrawler_Eat			\Default Work Unit\Enemy_EvilCrawler_Eat	
+	3664581270	Ambient_Campfire_Play			\Default Work Unit\Ambient_Campfire_Play	
+	3671932190	Player_Weapon_Swing			\Default Work Unit\Player_Weapon_Swing	
+	3695342915	Player_WeaponImpact			\Default Work Unit\Player_WeaponImpact	
+	3741135221	Music_Region			\Default Work Unit\Music_Region	
+	3749307760	UI_Inventory_Roll			\Default Work Unit\UI_Inventory_Roll	
+	3762732752	Enemies_EvilSpitPlant_ShootLoop_Play			\Default Work Unit\Enemies_EvilSpitPlant_ShootLoop_Play	
+	3808743129	Player_WeaponSwing			\Default Work Unit\Player_WeaponSwing	
+	3842195348	Player_Hurt_Vox			\Default Work Unit\Player_Hurt_Vox	
+	3999192250	Enemy_EvilHead_Hurt			\Default Work Unit\Enemy_EvilHead_Hurt	
+	4037905639	Enemy_EvilHead_Telegraph			\Default Work Unit\Enemy_EvilHead_Telegraph	
+	4043274424	Enemies_EvilSpitPlant_Death_Headfall			\Default Work Unit\Enemies_EvilSpitPlant_Death_Headfall	
+	4048245320	Enemies_EvilSpitPlant_Bullet_NoImpact			\Default Work Unit\Enemies_EvilSpitPlant_Bullet_NoImpact	
+	4074966752	Player_PlayerFootstep			\Default Work Unit\Player_PlayerFootstep	
+	4254124015	Destruction_Container			\Default Work Unit\Destruction_Container	
+	4261614160	Enemy_EvilHead_Hover_Stop			\Default Work Unit\Enemy_EvilHead_Hover_Stop	
+	4275106484	Ambient_Lava			\Default Work Unit\Ambient_Lava	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	13992095	BAS_Evil_Head_Death_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Death_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Death\BAS_Evil_Head_Death_01		353970
+	39865818	BAS_Evil_Crawler_Hurt_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Hurt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Hurt\BAS_Evil_Crawler_Hurt_02		101490
+	42766963	BAS_Evil_Crawler_Hurt_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Hurt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Hurt\BAS_Evil_Crawler_Hurt_01		75918
+	44139011	BAS_Crate_Destroy_04	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate\BAS_Crate_Destroy_04		146626
+	54006985	BAS_Evil_SpitPlant_HurtImpact_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Hurt\BAS_Evil_SpitPlant_HurtImpact_03		71672
+	84684848	BAS_Evil_SpitPlant_ImpactPlayer_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Impact\BAS_Evil_SpitPlant_ImpactPlayer_02		67662
+	94252514	BAS_Evil_Head_Hurt_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Hurt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Hurt\BAS_Evil_Head_Hurt_03		120768
+	129434280	BAS_Crate_Destroy_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate\BAS_Crate_Destroy_01		89580
+	149784088	BAS_Lava	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Emitters\BAS_Lava_B06D4CFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Lava		1169072
+	162792833	BAS_Evil_Crawler_Explode_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Explode_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Explode\BAS_Evil_Crawler_Explode_01		239076
+	163811544	BAS_Button_Enter	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
+	201559530	BAS_Evil_Head_Charge_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Charge_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Charge_Seq\Head_Charge\BAS_Evil_Head_Charge_03		306568
+	212198980	BAS_Evil_SpitPlant_Charge_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Charge_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Charge\BAS_Evil_SpitPlant_Charge_01		131226
+	226511738	BAS_Evil_SpitPlant_Charge_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Charge_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Charge\BAS_Evil_SpitPlant_Charge_03		127202
+	240228049	BAS_Evil_Crawler_Move_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Move_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Move\BAS_Evil_Crawler_Move_01		119260
+	242880030	BAS_Evil_Crawler_Explode_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Explode_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Explode\BAS_Evil_Crawler_Explode_03		263828
+	269251227	BAS_Button_Over	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
+	269491480	BAS_Evil_Head_Bite_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Bite_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Bite\BAS_Evil_Head_Bite_03		79486
+	273344923	BAS_Crate_Destroy_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate\BAS_Crate_Destroy_03		126766
+	287412102	BAS_Evil_SpitPlant_Shoot_LP_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_LP_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\BAS_Evil_SpitPlant_Shoot_LP_01		645488
+	312675748	BAS_Evil_SpitPlant_HurtImpact_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Hurt\BAS_Evil_SpitPlant_HurtImpact_02		90928
+	385075805	BAS_Evil_SpitPlant_Shoot_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Shoot\BAS_Evil_SpitPlant_Shoot_01		180384
+	386090111	BAS_Evil_Head_Death_Vox_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Death_Vox_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Vox\BAS_Evil_Head_Death_Vox_03		232984
+	391182289	BAS_Evil_Head_Hurt_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Hurt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Hurt\BAS_Evil_Head_Hurt_02		101250
+	414129758	BAS_Evil_Head_Charge_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Charge_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Charge_Seq\Head_Charge\BAS_Evil_Head_Charge_02		208488
+	432191672	BAS_Evil_Crawler_Explode_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Explode_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Explode\BAS_Evil_Crawler_Explode_02		259288
+	452373859	BAS_Evil_Crawler_Hurt_Vox_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Hurt_Vox\BAS_Evil_Crawler_Hurt_Vox_03		77832
+	461929612	BAS_Crystal_Ringing	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Emitters\BAS_Crystal_Ringing_9C21D62A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Crystal_Ringing		2469808
+	482840293	BAS_Evil_SpitPlant_HurtImpact_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_HurtImpact_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Hurt\BAS_Evil_SpitPlant_HurtImpact_01		85422
+	489720883	BAS_Evil_Head_Hover_LP	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Hover_LP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\BAS_Evil_Head_Hover_LP		379574
+	493933333	BAS_Evil_Head_Hurt_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Hurt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Hurt\BAS_Evil_Head_Hurt_01		124760
+	498109230	BAS_Evil_Head_Charge_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Charge_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Charge_Seq\Head_Charge\BAS_Evil_Head_Charge_01		212604
+	499189681	BAS_Evil_Head_Bite_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Bite_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Bite\BAS_Evil_Head_Bite_02		73022
+	519586475	BAS_Crate_Destroy_06	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate\BAS_Crate_Destroy_06		125070
+	579446980	BAS_Evil_SpitPlant_ImpactPlayer_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Impact\BAS_Evil_SpitPlant_ImpactPlayer_01		80000
+	607768939	BAS_Button_Close	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Close		62500
+	608549773	BAS_Evil_Head_Death_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Death_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Death\BAS_Evil_Head_Death_02		388794
+	617147518	BAS_Evil_Crawler_Eat_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Eat_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Eat\BAS_Evil_Crawler_Eat_02		104178
+	630481532	BAS_Evil_SpitPlant_Death_04	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Death_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Death\BAS_Evil_SpitPlant_Death_04		235198
+	631352675	BAS_Evil_Head_Death_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Death_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Death\BAS_Evil_Head_Death_03		430444
+	635319759	BAS_Evil_SpitPlant_Hurt_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_NoImpact\BAS_Evil_SpitPlant_Hurt_01		35032
+	635677513	BAS_Crate_Destroy_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate\BAS_Crate_Destroy_02		142344
+	642721332	BAS_Evil_SpitPlant_Shoot_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Shoot\BAS_Evil_SpitPlant_Shoot_02		174128
+	644700457	BAS_Evil_Head_Charge	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Charge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Charge_Seq\BAS_Evil_Head_Charge		302874
+	648613753	BAS_Evil_Crawler_Death_Vox_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Death_Vox_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Death\BAS_Evil_Crawler_Death_Vox_01		121160
+	672121593	BAS_Evil_SpitPlant_Death_Headfall_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Headfall\BAS_Evil_SpitPlant_Death_Headfall_01		46876
+	677577275	BAS_Evil_Crawler_Eat_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Eat_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Eat\BAS_Evil_Crawler_Eat_01		79658
+	694794196	BAS_Evil_SpitPlant_Charge_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Charge_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Charge\BAS_Evil_SpitPlant_Charge_02		120762
+	708289879	BAS_Inventory_Select	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Inventory_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Select		160956
+	730994795	BAS_Evil_Crawler_Hurt_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Hurt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Hurt\BAS_Evil_Crawler_Hurt_03		93096
+	776758619	BAS_Evil_SpitPlant_ImpactPlayer_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_ImpactPlayer_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Impact\BAS_Evil_SpitPlant_ImpactPlayer_03		67310
+	780226897	BAS_Evil_SpitPlant_Hurt_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_NoImpact\BAS_Evil_SpitPlant_Hurt_03		61994
+	792823064	BAS_Evil_Head_Charge_Bite	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Charge_Bite_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\BAS_Evil_Head_Charge_Bite		65246
+	795583947	BAS_Crate_Destroy_05	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\BAS_Crate_Destroy_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Crate\BAS_Crate_Destroy_05		96618
+	798993131	BAS_Evil_SpitPlant_Death_Headfall_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Headfall\BAS_Evil_SpitPlant_Death_Headfall_02		43622
+	813693371	BAS_Evil_Crawler_Hurt_Vox_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Hurt_Vox\BAS_Evil_Crawler_Hurt_Vox_01		54576
+	823410882	BAS_Evil_Crawler_Move_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Move_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Move\BAS_Evil_Crawler_Move_03		133942
+	827790857	BAS_Evil_Crawler_Death_Vox_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Death_Vox_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Death\BAS_Evil_Crawler_Death_Vox_02		147932
+	890960252	BAS_Evil_SpitPlant_Hurt_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Hurt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_NoImpact\BAS_Evil_SpitPlant_Hurt_02		29066
+	895808716	BAS_Evil_Crawler_Death_Vox_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Death_Vox_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Death\BAS_Evil_Crawler_Death_Vox_03		120212
+	897255792	BAS_Evil_Crawler_Eat_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Eat_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Eat\BAS_Evil_Crawler_Eat_03		90344
+	900050537	BAS_Button_Teleport	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Teleport		345428
+	919409050	BAS_Campfire	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Emitters\BAS_Torch_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Campfire		448492
+	926016053	BAS_Evil_SpitPlant_Death_06	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Death_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Death\BAS_Evil_SpitPlant_Death_06		190976
+	929735157	BAS_Evil_Head_Death_Vox_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Death_Vox_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Vox\BAS_Evil_Head_Death_Vox_01		397518
+	950652521	BAS_Evil_Crawler_Move_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Move_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Move\BAS_Evil_Crawler_Move_02		119876
+	958454385	BAS_Evil_SpitPlant_Death_Headfall_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Death_Headfall_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Headfall\BAS_Evil_SpitPlant_Death_Headfall_03		59668
+	971609785	BAS_Button_Open	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
+	982269580	BAS_Evil_SpitPlant_Death_05	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Death_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Death\BAS_Evil_SpitPlant_Death_05		196880
+	987291754	BAS_Evil_Head_Bite_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Bite_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Bite\BAS_Evil_Head_Bite_01		93252
+	1034572841	BAS_Evil_Head_Death_Vox_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Head_Death_Vox_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Head_Vox\BAS_Evil_Head_Death_Vox_02		262944
+	1066088158	BAS_Evil_SpitPlant_Shoot_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_SpitPlant_Shoot_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Plant_Shoot\BAS_Evil_SpitPlant_Shoot_03		137266
+	1067982684	BAS_Evil_Crawler_Hurt_Vox_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Creatures\BAS_Evil_Crawler_Hurt_Vox_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Creatures\Crawler_Hurt_Vox\BAS_Evil_Crawler_Hurt_Vox_02		71376
+

@@ -1,0 +1,28 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15662850	UI_Button_Up			\Default Work Unit\UI_Button_Up	
+	18309885	UI_Button_Enter			\Default Work Unit\UI_Button_Enter	
+	156563189	UI_Button_Down			\Default Work Unit\UI_Button_Down	
+	750089663	UI_Menu_Teleport			\Default Work Unit\UI_Menu_Teleport	
+	1049266392	Ambient_Region_Woodlands			\Default Work Unit\Ambient_Region_Woodlands	
+	1399152593	UI_Quest_Roll_Hide			\Default Work Unit\UI_Quest_Roll_Hide	
+	1464993479	UI_Menu_Resume			\Default Work Unit\UI_Menu_Resume	
+	1532327793	Music_TitleScreen			\Default Work Unit\Music_TitleScreen	
+	2199611969	UI_Inventory_Open			\Default Work Unit\UI_Inventory_Open	
+	2278290679	UI_Inventory_Close			\Default Work Unit\UI_Inventory_Close	
+	2325560497	UI_Button_Exit			\Default Work Unit\UI_Button_Exit	
+	2702327653	UI_Quest_Roll_Open			\Default Work Unit\UI_Quest_Roll_Open	
+	3237189652	UI_Menu_Pause			\Default Work Unit\UI_Menu_Pause	
+	3474566310	UI_Menu_Select			\Default Work Unit\UI_Menu_Select	
+	3524454690	UI_Quest_Roll_Show			\Default Work Unit\UI_Quest_Roll_Show	
+	3567233235	UI_Quest_Roll_Close			\Default Work Unit\UI_Quest_Roll_Close	
+	3749307760	UI_Inventory_Roll			\Default Work Unit\UI_Inventory_Roll	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	66374312	TitleScreen_120BPM_4_4_L41M_P2M	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Music\TitleScreen_120BPM_4_4_L41M_P2M_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\TitleScreen_120BPM_4_4_L41M_P2M		17664064
+	163811544	BAS_Button_Enter	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
+	269251227	BAS_Button_Over	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
+	607768939	BAS_Button_Close	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Close_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Close		62500
+	708289879	BAS_Inventory_Select	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Inventory_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Inventory_Select		160956
+	900050537	BAS_Button_Teleport	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Teleport_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Teleport		345428
+	971609785	BAS_Button_Open	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Open		56256
+

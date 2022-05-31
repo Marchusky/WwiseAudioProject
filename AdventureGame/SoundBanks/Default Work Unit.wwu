@@ -5,9 +5,22 @@
 			<ChildrenList>
 				<SoundBank Name="TitleScreen" ID="{CCDF15AC-6CD5-40A5-A103-E44351236250}">
 					<ObjectInclusionList>
+						<ObjectRef Name="UI_Menu_Teleport" ID="{1FAF2355-E4A5-4024-A84F-6D1F420DC3A8}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{A902B990-2839-44E3-BE54-386CDE03A16A}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Quest_Roll_Open" ID="{96245503-A269-4590-A85C-6C1EE1373B7F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Resume" ID="{E46BAA7B-588B-45C9-9EB8-C6A22AF1ED32}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Button_Exit" ID="{7342622D-95DF-45DE-B509-57C9A80938E3}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Pause" ID="{39B2D162-A952-46C7-A288-1F6566BE03DB}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Roll" ID="{89C72DF7-9F00-4847-BAEE-9CD3F7BCE816}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Quest_Roll_Hide" ID="{9925A6DD-FB0E-486E-A953-C0E331394B66}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Quest_Roll_Close" ID="{4711DCA4-BAA8-4A92-B12E-3295F7FDFED3}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Menu_Select" ID="{2A182F2F-CD1C-4AFB-A34C-3AC5AD8B490E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Open" ID="{8F32125E-C349-4B2E-9B4B-29F3E612D774}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Up" ID="{44A1DDCB-0A86-4BF0-88AA-3273D93AAB8E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Quest_Roll_Show" ID="{B239A16D-AEA5-4C00-A1DE-7C72FF1086E2}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_TitleScreen" ID="{D3DA7D40-AE62-4CC8-90A2-E61E4333F4DF}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Woodlands" ID="{E99E7237-7ACA-4E8D-A36E-CA0824AD33DD}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Close" ID="{9210AEF5-C6CD-4E9F-9875-80768A27BFC2}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Enter" ID="{7312DECC-EC75-4EC9-BC79-33E9BA6A0190}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
@@ -16,13 +29,136 @@
 				<SoundBank Name="General" ID="{845BB360-A3D1-4F2A-8D92-90BFEED702F5}">
 					<ObjectInclusionList>
 						<ObjectRef Name="UI_Menu_Teleport" ID="{1FAF2355-E4A5-4024-A84F-6D1F420DC3A8}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_Coins" ID="{5DEE61FB-7E8D-402F-98AE-A056AFFF4F10}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_WeaponImpact" ID="{A18A1F00-0EAF-408D-BA5C-CDA1CB367DAC}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Torch" ID="{9FD0514F-EB09-4096-B61A-AF9477A46D43}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Death" ID="{780E50D1-7230-40B0-A2DD-99EBA3ADB7D2}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilCrawler_Explode" ID="{242B4C79-0C27-40C6-8161-9D9FFCA65F7D}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies_EvilSpitPlant_Hurt" ID="{F40CB6A7-4E74-40EA-8523-3AB0BABCC1B9}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_DungeonEnemyOnly" ID="{731D5374-A059-4156-B3E0-09D40FF7B3F7}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Magic_Charge" ID="{719FF747-B0E4-41AC-8E1A-317B441D39A2}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Core_Shield_2" ID="{94828658-81C1-41C8-83BD-66A32486B07F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Campfire_Stop" ID="{6AA03D1F-4ECA-428A-98AF-3412E5CAB8FE}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Region" ID="{BD966925-6CB3-42A6-B9BA-82A82758B65A}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Core_HorribleSound" ID="{97C6CA92-3EB5-42B3-9617-B8BACC7B4716}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilHead_SpawnerDestroy" ID="{F7C27D72-3121-4324-BABE-73FA87867BF2}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Magic_Blast_Impact" ID="{BC7A3C9A-7022-432E-9219-C8552B33DA82}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stinger_GetWeapon" ID="{1034D966-F019-4399-8758-F17D4A92FBB2}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilHead_Movement" ID="{6B4A344D-0CD5-43CB-BEC4-BEB7E8EBF67E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Core_FinalReveal" ID="{E4DA7351-0517-43CC-987B-2477E9FFF38B}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Core_Shield_3" ID="{7C08373E-18FA-4416-8872-3E7252251DB7}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilHead_Telegraph" ID="{59C87E02-5488-4459-A7FF-04DC6BEAAED6}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies_EvilSpitPlant_ShootBullet" ID="{4A0F8D56-E33A-446D-903A-82B9ABE92FDB}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{A902B990-2839-44E3-BE54-386CDE03A16A}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Campfire_Play" ID="{861E5FF6-700B-450A-B51A-765394CA8DCA}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Core_Shield_Alive" ID="{DB7FD366-C860-4537-AEB6-8B56447BBFDA}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_PlayerFootstep" ID="{531003F0-416B-4589-82D7-611D7B18583F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Quest_Roll_Open" ID="{96245503-A269-4590-A85C-6C1EE1373B7F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies_EvilSpitPlant_Charge" ID="{6552C8B6-C142-45A0-87E3-352B7EDE011A}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Menu_Resume" ID="{E46BAA7B-588B-45C9-9EB8-C6A22AF1ED32}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Exit" ID="{7342622D-95DF-45DE-B509-57C9A80938E3}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilHead_Charge" ID="{F340539B-40DD-464B-8C95-EF46E294BE28}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies_EvilSpitPlant_Bullet_NoImpact" ID="{6BFFDD06-A287-4663-942E-0C36144BBBC3}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Menu_Pause" ID="{39B2D162-A952-46C7-A288-1F6566BE03DB}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Weapon_Swing" ID="{71475CA1-B929-46D3-8B8A-7E6B1704C04F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Container" ID="{8671A5E0-38AC-4789-B7CE-F6F92A4D1586}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilHead_Hover_Stop" ID="{3C490732-65E6-478F-8C2D-507D2AD22662}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Core_ShieldBreak" ID="{0811D1EB-FA70-47D5-B9C7-460B61E96DA7}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Object_Rune_Charge_Stop" ID="{43D284CC-0EDA-47E2-8C9C-16E6CCAEED6A}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Roll" ID="{89C72DF7-9F00-4847-BAEE-9CD3F7BCE816}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Object_Rune_Charge_Play" ID="{5AA67006-F9BF-4869-9319-B7DA59BAFD55}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Quest_Roll_Hide" ID="{9925A6DD-FB0E-486E-A953-C0E331394B66}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Health" ID="{9889E6C7-41C8-4894-8172-2C2835821C1E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilCrawler_Eat" ID="{3F1FD3C2-F371-4902-AE34-B5302CAE24BD}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies_EvilSpitPlant_Bullet_Impact" ID="{CA02DD01-852E-4947-8175-2C469784F721}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest_CompleteCollection" ID="{773DDF6E-1001-494C-86BF-4569DFC395C4}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilCrawler_Hurt" ID="{12EA9539-5D75-4996-941C-E7DB72749D2A}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Core_Shield_Destroyed" ID="{691192BB-6B3D-49C4-BB74-BF48E020DE9B}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Quest_Roll_Close" ID="{4711DCA4-BAA8-4A92-B12E-3295F7FDFED3}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilHead_Death" ID="{9B711139-D067-4ADD-AAD6-EF36B2B93825}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Menu_Select" ID="{2A182F2F-CD1C-4AFB-A34C-3AC5AD8B490E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Magic_Stop" ID="{4B441AB7-76C7-4B06-9749-45B5575ADA59}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilHead_Bite" ID="{61C1BAF5-44FB-4B26-B15A-E49154FCD4D2}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Open" ID="{8F32125E-C349-4B2E-9B4B-29F3E612D774}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Core_Explosion" ID="{538F26FA-FF52-4B8D-9873-E684CDB9243E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Up" ID="{44A1DDCB-0A86-4BF0-88AA-3273D93AAB8E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Lava" ID="{16D91D9A-37A1-4BF8-A31A-8625918C5A7F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Hurt_Vox" ID="{02DB54F5-4780-4C00-9216-5E59A493A234}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Quest_Roll_Show" ID="{B239A16D-AEA5-4C00-A1DE-7C72FF1086E2}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies_EvilSpitPlant_Death" ID="{E7159A9F-E445-4C4E-9B1E-2081A35C6898}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilCrawler_Movement" ID="{8D61A6BD-BFB2-4C73-867C-EE27C9DFEE05}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies_EvilSpitPlant_ShootLoop_Stop" ID="{BAFBC82F-74A7-4C74-A5BD-6FA034B9DA45}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilHead_Hurt" ID="{B84ED242-7D5B-4CB1-B3C7-3717C74AB3C8}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Core_Shield_1" ID="{D092B481-08DD-4CF9-87CC-7B9DBBBDA70E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilCrawler_Death" ID="{C7BDF04C-A4E6-4D4B-B461-03E8A7FDA70D}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_WeaponSwing" ID="{3E4ED2A3-EC73-4DAC-8E55-DFC100FEC431}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy_EvilHead_Hover_Play" ID="{5EC0AA60-01F3-4E1F-A57B-8F05D74A17D7}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UI_Inventory_Close" ID="{9210AEF5-C6CD-4E9F-9875-80768A27BFC2}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Quest_Complete" ID="{59CDD875-3A77-4EC4-8D8E-418F3BBC1EFC}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies_EvilSpitPlant_ShootLoop_Play" ID="{B6F7F01D-C6CC-4EC6-A862-CFD4D76271B0}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Enter" ID="{7312DECC-EC75-4EC9-BC79-33E9BA6A0190}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_WeaponType" ID="{E1583863-624D-4ED8-88FC-EC3078BAD946}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Crystal_Hum" ID="{BC56DFA5-354A-4F1C-9FF6-01359D43698A}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_ItemType" ID="{2A0389EA-6A75-4F23-83CB-B52A39848048}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemies_EvilSpitPlant_Death_Headfall" ID="{D5BDC356-BC8E-4F3A-A0CB-017CFB477956}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Magic_Blast" ID="{B509BAFF-DEEB-4F45-BE27-A2DD42ACDB97}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_All" ID="{F3D0B85E-18B1-4F9A-9140-FA138B311539}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Credits" ID="{B3ABCFD2-BCFD-4BB9-9CE2-B6C27A588D26}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music_Credits" ID="{6C5A0165-3DCB-433D-B69D-8A96E199C3EC}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Desert" ID="{3506E4AD-0B9E-4A55-ABB2-CE40DD9E1AA9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Destruction_Volcanic_Boulder_Impact" ID="{814B3737-5EE7-4858-8036-E846644AC52E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Desert" ID="{155352B0-7CEA-49FF-8329-F10D98991717}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Cave" ID="{63D5175F-69C5-484F-B1D5-C9279B12BEFC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_WaterDrop" ID="{46227ACA-22DB-4A50-A697-91E35974F682}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Cave" ID="{F17CEEBE-BAB8-4F5D-A135-507EDF3FF22E}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Crystal_Destroy" ID="{6D24E012-D180-4FDC-9316-4C856852AD1F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Dungeon" ID="{10E0A6BB-B227-4022-947B-14A4A59C4F7D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Dungeon" ID="{F5CAC31D-C4DE-4017-9E96-CC52CE778A99}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Rock_Destroy" ID="{8E919CB7-EFF2-40F3-A439-A993D94336CE}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="PineForest" ID="{2E162665-847C-47A4-A6A5-2F0FDE6599FC}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_PineForest" ID="{46C5CEA3-6A22-4530-8748-43928AF91966}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Village" ID="{977630DF-0F07-41AF-862E-57CB3164D7C7}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_River" ID="{1EFF109B-2839-40F3-868D-EB6449722EAB}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Windmill" ID="{454257BB-3829-481F-AAFD-13EEC1E9C695}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Village" ID="{CA4FF892-F2C7-4D08-85B9-2826484B5570}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Woodlands" ID="{D19B1D11-BCA0-4260-BDB4-E932E22C4D49}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Waterfall" ID="{CE29DD12-EEF7-4262-BD81-6AA549877A66}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Woodlands" ID="{E99E7237-7ACA-4E8D-A36E-CA0824AD33DD}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

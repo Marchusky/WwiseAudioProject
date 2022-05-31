@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	578570680	Destruction_Volcanic_Boulder_Impact			\Default Work Unit\Destruction_Volcanic_Boulder_Impact	
+	3408705206	Ambient_Region_Desert			\Default Work Unit\Ambient_Region_Desert	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	285808865	DebrisDirt	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\Volcanic Boulder\DebrisDirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Volcanic Boulder\DebrisDirt		384144
+	337745466	Explosion	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Volcanic Boulder\Explosion		768144
+
