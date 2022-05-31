@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15662850	UI_Button_Up			\Default Work Unit\UI_Button_Up	
+	18309885	UI_Button_Enter			\Default Work Unit\UI_Button_Enter	
+	156563189	UI_Button_Down			\Default Work Unit\UI_Button_Down	
+	1532327793	Music_TitleScreen			\Default Work Unit\Music_TitleScreen	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	66374312	TitleScreen_120BPM_4_4_L41M_P2M	C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Music\TitleScreen_120BPM_4_4_L41M_P2M_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\TitleScreen_120BPM_4_4_L41M_P2M		17664064
+	163811544	BAS_Button_Enter	C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Enter_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Enter		117424
+	269251227	BAS_Button_Over	C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\UI\BAS_Button_Over_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\BAS_Button_Over		21240
+

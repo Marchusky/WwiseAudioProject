@@ -3,6 +3,15 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{72712125-F3EE-428F-B0E9-3C60BEC2756A}">
 			<PropertyList>
+				<Property Name="Event Action List\{1FAF2355-E4A5-4024-A84F-6D1F420DC3A8}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2A182F2F-CD1C-4AFB-A34C-3AC5AD8B490E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{39B2D162-A952-46C7-A288-1F6566BE03DB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{44A1DDCB-0A86-4BF0-88AA-3273D93AAB8E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7312DECC-EC75-4EC9-BC79-33E9BA6A0190}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7342622D-95DF-45DE-B509-57C9A80938E3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A902B990-2839-44E3-BE54-386CDE03A16A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D3DA7D40-AE62-4CC8-90A2-E61E4333F4DF}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E46BAA7B-588B-45C9-9EB8-C6A22AF1ED32}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -13,11 +22,21 @@
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="JRdNBBXSXUaeX9nYe2HGDQ=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="rBXfzNVspUChA+RDUSNiUGCzW4TRoypPjZKQv+7XAvU="/>
+				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
+				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
+				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
 				<Property Name="PluginUserAcknowledge\Motion" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankPathUserOverride" Type="bool" Value="True"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">..\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
