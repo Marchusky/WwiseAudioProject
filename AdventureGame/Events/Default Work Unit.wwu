@@ -450,7 +450,17 @@
 				</Event>
 				<Event Name="Player_Health" ID="{9889E6C7-41C8-4894-8172-2C2835821C1E}"/>
 				<Event Name="Player_WeaponImpact" ID="{A18A1F00-0EAF-408D-BA5C-CDA1CB367DAC}"/>
-				<Event Name="Player_PlayerFootstep" ID="{531003F0-416B-4589-82D7-611D7B18583F}"/>
+				<Event Name="Player_PlayerFootstep" ID="{531003F0-416B-4589-82D7-611D7B18583F}">
+					<ChildrenList>
+						<Action Name="" ID="{368E9491-7DB4-409F-8EDE-FF51349AF1F0}" ShortID="270745259">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Walk" ID="{54929096-3472-44FA-A7D6-4880658E7833}" WorkUnitID="{DBFE25AE-40B3-4E96-AE62-6AD2F95295F6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

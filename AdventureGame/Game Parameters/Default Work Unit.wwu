@@ -12,6 +12,13 @@
 						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Surface_Type" ID="{A5330ED5-7A7A-4685-A705-0DE43E5AE41F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="15"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

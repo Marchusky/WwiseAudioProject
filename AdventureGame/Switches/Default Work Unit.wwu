@@ -42,6 +42,84 @@
 						</Curve>
 					</SwitchOnRTPC>
 				</SwitchGroup>
+				<SwitchGroup Name="Surface_Type" ID="{BC48BBE3-426A-43BF-8A46-68A45295A6F3}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Dirt" ID="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}"/>
+						<Switch Name="Grass" ID="{32668058-5BF8-40EE-9E9C-2F4E2EE0A199}"/>
+						<Switch Name="Rubble" ID="{A3611407-73C1-43BB-93FA-F956D69790E9}"/>
+						<Switch Name="Sand" ID="{7E1A2871-2BA3-48FE-A48E-BA35477EDE01}"/>
+						<Switch Name="Stone" ID="{645CE08A-1C87-4F99-9A02-CB0EBBE0C684}"/>
+						<Switch Name="Water" ID="{2FFB930C-2D31-4CFC-9B3F-5E2F700C60F5}"/>
+						<Switch Name="Wood" ID="{D9EB75DF-4CC0-4AD4-A8F6-1917E975CCD7}"/>
+						<Switch Name="Agent" ID="{FA3E484A-5996-4A28-BFA4-FF7EB6717409}"/>
+						<Switch Name="Barrel" ID="{17E6DB35-2703-499D-B807-D0C75D81C2C1}"/>
+						<Switch Name="Crate" ID="{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}"/>
+						<Switch Name="Crystal" ID="{25C85962-8B03-4EBC-A1FF-74C3919ED522}"/>
+						<Switch Name="Leaves" ID="{8BFF390B-ECB3-4F13-A870-8F92D48659CF}"/>
+						<Switch Name="Metal" ID="{D1DCA5AF-97CD-432B-AA6B-72F87B5BB504}"/>
+						<Switch Name="Enemy_EvilCrawler" ID="{BC98C574-F032-4AFD-A97E-B01C88AFEA6D}"/>
+						<Switch Name="Enemy_EvilHead" ID="{9336799F-9A51-4CEE-8978-FC3583D7D618}"/>
+						<Switch Name="Enemy_EvilSpitPlant" ID="{3770F718-700F-4BC9-A5CE-8F4BFDF7A781}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Surface_Type" ID="{A5330ED5-7A7A-4685-A705-0DE43E5AE41F}"/>
+						<Curve Name="" ID="{0B8EF7DB-2DC1-4C1F-8194-C30ED5517E1A}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>7.99845</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>8.97204</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>11.0091</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>12.02763</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>13.03118</XPos>
+									<YPos>5</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>14.01975</XPos>
+									<YPos>6</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>14.999</XPos>
+									<YPos>7</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>15</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
