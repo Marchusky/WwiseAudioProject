@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{76591145-B74D-4A21-933D-11F96C9B46CB}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{76591145-B74D-4A21-933D-11F96C9B46CB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{76591145-B74D-4A21-933D-11F96C9B46CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Time_of_Day" ID="{0DB4C265-2556-4FF2-88C0-8853D0EEABBB}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Day" ID="{12B8D30A-EE92-4CBB-A492-4914DF46DB52}"/>
+						<Switch Name="Night" ID="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Time_of_Day" ID="{89EEF073-1010-4236-8303-A14317BE5EB7}"/>
+						<Curve Name="" ID="{2F6DD510-A1C3-4E14-A964-0657339099DE}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>6</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>20</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>24</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>
