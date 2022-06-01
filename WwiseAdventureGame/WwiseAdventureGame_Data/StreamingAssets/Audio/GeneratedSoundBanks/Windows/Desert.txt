@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	578570680	Destruction_Volcanic_Boulder_Impact			\Default Work Unit\Destruction_Volcanic_Boulder_Impact	
+	3408705206	Ambient_Region_Desert			\Default Work Unit\Ambient_Region_Desert	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	Time_of_Day			
+	1011622525	Night	Time_of_Day			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	238742817	BAS_amb_desert_day_background_loop_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_day_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Desert\BAS_amb_desert_day_background_loop_01		21299264
+	285808865	DebrisDirt	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\Volcanic Boulder\DebrisDirt_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Volcanic Boulder\DebrisDirt		384144
+	337745466	Explosion	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\Volcanic Boulder\Explosion		768144
+	893374816	BAS_amb_desert_night_background_loop_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Background\BAS_amb_desert_night_background_loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Desert\BAS_amb_desert_night_background_loop_01		11931200
+

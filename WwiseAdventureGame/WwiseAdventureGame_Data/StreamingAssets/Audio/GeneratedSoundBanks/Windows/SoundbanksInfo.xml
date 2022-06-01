@@ -1,21 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="2006779209">
+		<SoundBank Id="133642231" Language="SFX" Hash="857392835">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Default Work Unit\Destruction_Container">
+					<IncludedMemoryFiles>
+						<File Id="44139011" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_04.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_04_10C4C929.wem</Path>
+						</File>
+						<File Id="129434280" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_01.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_01_10C4C929.wem</Path>
+						</File>
+						<File Id="273344923" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_03.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_03_10C4C929.wem</Path>
+						</File>
+						<File Id="519586475" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_06.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_06_10C4C929.wem</Path>
+						</File>
+						<File Id="635677513" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_02.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_02_10C4C929.wem</Path>
+						</File>
+						<File Id="795583947" Language="SFX">
+							<ShortName>Destruction\BAS_Crate_Destroy_05.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crate_Destroy_05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Default Work Unit\Music_Region">
+					<IncludedMemoryFiles>
+						<File Id="2294066" Language="SFX">
+							<ShortName>Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0.wav</ShortName>
+							<Path>SFX\Music\Explore\Woodlands_Day_120BPM_4_4_L8M_P0_7C75046C.wem</Path>
+						</File>
+						<File Id="425573456" Language="SFX">
+							<ShortName>Music\Explore\Nowhere_120BPM_4_4_L8M_P0.wav</ShortName>
+							<Path>SFX\Music\Explore\Nowhere_120BPM_4_4_L8M_P0_E417506E.wem</Path>
+						</File>
+						<File Id="443672102" Language="SFX">
+							<ShortName>Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M.wav</ShortName>
+							<Path>SFX\Music\Explore\Woodlands_Night_120BPM_4_4_L8M_P1M_718BFD57.wem</Path>
+						</File>
+						<File Id="679507772" Language="SFX">
+							<ShortName>Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0.wav</ShortName>
+							<Path>SFX\Music\Explore\Cave_Silent_WwizardHouse_120BPM_L8M_P0_FF7EF208.wem</Path>
+						</File>
+						<File Id="704765242" Language="SFX">
+							<ShortName>Music\Explore\Dungeon_120BPM_4_4_L8M_P1M.wav</ShortName>
+							<Path>SFX\Music\Explore\Dungeon_120BPM_4_4_L8M_P1M_8FAC7326.wem</Path>
+						</File>
+						<File Id="829177987" Language="SFX">
+							<ShortName>Music\Explore\Village_120BPM_4_4_L8M_P1M.wav</ShortName>
+							<Path>SFX\Music\Explore\Village_120BPM_4_4_L8M_P1M_DBD27C24.wem</Path>
+						</File>
+						<File Id="965643848" Language="SFX">
+							<ShortName>Music\Explore\Desert_120BPM_4_4_L8M_P0.wav</ShortName>
+							<Path>SFX\Music\Explore\Desert_120BPM_4_4_L8M_P0_811EDD81.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{67D03A08-4A6F-4CDE-8E3E-E2364F7F33B0}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{67D03A08-4A6F-4CDE-8E3E-E2364F7F33B0}">
+							<DefaultSwitchValue>{12B8D30A-EE92-4CBB-A492-4914DF46DB52}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{12B8D30A-EE92-4CBB-A492-4914DF46DB52}">
+									<Media>
+										<File Id="2294066"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}">
+									<Media>
+										<File Id="443672102"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0C2F6D1C-FA40-42FB-9F9A-7CDAB9AC23E7}">
+							<Media>
+								<File Id="829177987"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4124A71E-9192-4796-A94E-4195D16349C3}">
+							<Media>
+								<File Id="679507772"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{61BDAE3A-0243-4F48-A840-D64D9589B424}">
+							<Media>
+								<File Id="425573456"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AD69625B-0DF9-4CD1-8912-47D4AFA2C60D}">
+							<Media>
+								<File Id="679507772"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AA980662-8B5B-4247-B0CD-4C1BEB1B50DD}">
+							<Media>
+								<File Id="965643848"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1083B2A5-4AAD-4FC3-B245-6EC2E345567F}">
+							<Media>
+								<File Id="704765242"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{399C57E6-3EB3-4342-A2D9-58F9298F6B08}">
+							<Media>
+								<File Id="679507772"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Default Work Unit\Player_Health"/>
+				<Event Id="4074966752" Name="Player_PlayerFootstep" ObjectPath="\Events\Default Work Unit\Player_PlayerFootstep"/>
+				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Default Work Unit\Player_WeaponImpact"/>
+				<Event Id="3240473869" Name="Quest_Complete" ObjectPath="\Events\Default Work Unit\Quest_Complete"/>
+				<Event Id="844130829" Name="Quest_CompleteCollection" ObjectPath="\Events\Default Work Unit\Quest_CompleteCollection"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
 					<IncludedMemoryFiles>
 						<File Id="269251227" Language="SFX">
@@ -45,6 +164,30 @@
 						<File Id="269251227" Language="SFX">
 							<ShortName>UI\BAS_Button_Over.wav</ShortName>
 							<Path>SFX\UI\BAS_Button_Over_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\Default Work Unit\UI_Inventory_Close">
+					<IncludedMemoryFiles>
+						<File Id="254421272" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\Default Work Unit\UI_Inventory_Open">
+					<IncludedMemoryFiles>
+						<File Id="288094772" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\Default Work Unit\UI_Inventory_Roll">
+					<IncludedMemoryFiles>
+						<File Id="320657803" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Scroll.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Scroll_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -80,13 +223,79 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3567233235" Name="UI_Quest_Roll_Close" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Close">
+					<IncludedMemoryFiles>
+						<File Id="161770584" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1399152593" Name="UI_Quest_Roll_Hide" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Hide">
+					<IncludedMemoryFiles>
+						<File Id="288094772" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2702327653" Name="UI_Quest_Roll_Open" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Open">
+					<IncludedMemoryFiles>
+						<File Id="401018015" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3524454690" Name="UI_Quest_Roll_Show" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Show">
+					<IncludedMemoryFiles>
+						<File Id="288094772" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2106907484" Name="Music_Regions" ObjectPath="\States\Default Work Unit\Music_Regions" GUID="{C851B23C-75F7-45D8-8A3B-9258A02A11EA}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_Regions\None" GUID="{3E08916B-358F-4B95-9949-810EB3575930}"/>
+						<State Id="4122393694" Name="Cave" ObjectPath="\States\Default Work Unit\Music_Regions\Cave" GUID="{399C57E6-3EB3-4342-A2D9-58F9298F6B08}"/>
+						<State Id="3945572659" Name="Village" ObjectPath="\States\Default Work Unit\Music_Regions\Village" GUID="{0C2F6D1C-FA40-42FB-9F9A-7CDAB9AC23E7}"/>
+						<State Id="1850388778" Name="Desert" ObjectPath="\States\Default Work Unit\Music_Regions\Desert" GUID="{AA980662-8B5B-4247-B0CD-4C1BEB1B50DD}"/>
+						<State Id="608898761" Name="Dungeon" ObjectPath="\States\Default Work Unit\Music_Regions\Dungeon" GUID="{1083B2A5-4AAD-4FC3-B245-6EC2E345567F}"/>
+						<State Id="3160623154" Name="Silent" ObjectPath="\States\Default Work Unit\Music_Regions\Silent" GUID="{4124A71E-9192-4796-A94E-4195D16349C3}"/>
+						<State Id="3424056949" Name="Nowhere" ObjectPath="\States\Default Work Unit\Music_Regions\Nowhere" GUID="{61BDAE3A-0243-4F48-A840-D64D9589B424}"/>
+						<State Id="1421251628" Name="Woodlands" ObjectPath="\States\Default Work Unit\Music_Regions\Woodlands" GUID="{67D03A08-4A6F-4CDE-8E3E-E2364F7F33B0}"/>
+						<State Id="3132368115" Name="WwizardHouse" ObjectPath="\States\Default Work Unit\Music_Regions\WwizardHouse" GUID="{AD69625B-0DF9-4CD1-8912-47D4AFA2C60D}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="207908541" Name="Time_of_Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day" GUID="{0DB4C265-2556-4FF2-88C0-8853D0EEABBB}">
+					<Switches>
+						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Day" GUID="{12B8D30A-EE92-4CBB-A492-4914DF46DB52}"/>
+						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Night" GUID="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="1462237432">
+		<SoundBank Id="152105657" Language="SFX" Hash="3905017209">
 			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Default Work Unit\Ambient_Region_Woodlands">
+					<IncludedMemoryFiles>
+						<File Id="1069939439" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_B5C7C2DC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1532327793" Name="Music_TitleScreen" ObjectPath="\Events\Default Work Unit\Music_TitleScreen">
 					<IncludedMemoryFiles>
 						<File Id="66374312" Language="SFX">
@@ -111,6 +320,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\Default Work Unit\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="163811544" Language="SFX">
+							<ShortName>UI\BAS_Button_Enter.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Enter_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\Default Work Unit\UI_Button_Up">
 					<IncludedMemoryFiles>
 						<File Id="269251227" Language="SFX">
@@ -119,12 +336,379 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\Default Work Unit\UI_Inventory_Close">
+					<IncludedMemoryFiles>
+						<File Id="254421272" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\Default Work Unit\UI_Inventory_Open">
+					<IncludedMemoryFiles>
+						<File Id="288094772" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\Default Work Unit\UI_Inventory_Roll">
+					<IncludedMemoryFiles>
+						<File Id="320657803" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Scroll.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Scroll_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\Default Work Unit\UI_Menu_Pause">
+					<IncludedMemoryFiles>
+						<File Id="971609785" Language="SFX">
+							<ShortName>UI\BAS_Button_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\Default Work Unit\UI_Menu_Resume">
+					<IncludedMemoryFiles>
+						<File Id="607768939" Language="SFX">
+							<ShortName>UI\BAS_Button_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3474566310" Name="UI_Menu_Select" ObjectPath="\Events\Default Work Unit\UI_Menu_Select">
+					<IncludedMemoryFiles>
+						<File Id="708289879" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Select.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Select_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750089663" Name="UI_Menu_Teleport" ObjectPath="\Events\Default Work Unit\UI_Menu_Teleport">
+					<IncludedMemoryFiles>
+						<File Id="900050537" Language="SFX">
+							<ShortName>UI\BAS_Button_Teleport.wav</ShortName>
+							<Path>SFX\UI\BAS_Button_Teleport_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3567233235" Name="UI_Quest_Roll_Close" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Close">
+					<IncludedMemoryFiles>
+						<File Id="161770584" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Close.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1399152593" Name="UI_Quest_Roll_Hide" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Hide">
+					<IncludedMemoryFiles>
+						<File Id="288094772" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2702327653" Name="UI_Quest_Roll_Open" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Open">
+					<IncludedMemoryFiles>
+						<File Id="401018015" Language="SFX">
+							<ShortName>UI\BAS_QuestRoll_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_QuestRoll_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3524454690" Name="UI_Quest_Roll_Show" ObjectPath="\Events\Default Work Unit\UI_Quest_Roll_Show">
+					<IncludedMemoryFiles>
+						<File Id="288094772" Language="SFX">
+							<ShortName>UI\BAS_Inventory_Open.wav</ShortName>
+							<Path>SFX\UI\BAS_Inventory_Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="207908541" Name="Time_of_Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day" GUID="{0DB4C265-2556-4FF2-88C0-8853D0EEABBB}">
+					<Switches>
+						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Day" GUID="{12B8D30A-EE92-4CBB-A492-4914DF46DB52}"/>
+						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Night" GUID="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="608898761" Language="SFX" Hash="3782491797">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dungeon</ObjectPath>
+			<ShortName>Dungeon</ShortName>
+			<Path>Dungeon.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Default Work Unit\Ambient_Region_Dungeon">
+					<IncludedMemoryFiles>
+						<File Id="765017470" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_dungeon_day_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_dungeon_day_background_loop_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Default Work Unit\Destruction_Rock_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="419346019" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_02.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_02_10C4C929.wem</Path>
+						</File>
+						<File Id="629239930" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_01.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1008992106" Language="SFX">
+							<ShortName>Destruction\BAS_Destroy_Rock_03.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Destroy_Rock_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1958929096">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2771220903">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1421251628" Language="SFX" Hash="3690192429">
+			<ObjectPath>\SoundBanks\Default Work Unit\Woodlands</ObjectPath>
+			<ShortName>Woodlands</ShortName>
+			<Path>Woodlands.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Default Work Unit\Ambient_Region_Woodlands">
+					<IncludedMemoryFiles>
+						<File Id="1069939439" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_forest_day_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_B5C7C2DC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Default Work Unit\Ambient_Waterfall">
+					<IncludedMemoryFiles>
+						<File Id="152023859" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Waterfall.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="207908541" Name="Time_of_Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day" GUID="{0DB4C265-2556-4FF2-88C0-8853D0EEABBB}">
+					<Switches>
+						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Day" GUID="{12B8D30A-EE92-4CBB-A492-4914DF46DB52}"/>
+						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Night" GUID="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1850388778" Language="SFX" Hash="841097894">
+			<ObjectPath>\SoundBanks\Default Work Unit\Desert</ObjectPath>
+			<ShortName>Desert</ShortName>
+			<Path>Desert.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3408705206" Name="Ambient_Region_Desert" ObjectPath="\Events\Default Work Unit\Ambient_Region_Desert">
+					<IncludedMemoryFiles>
+						<File Id="238742817" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_desert_day_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_desert_day_background_loop_01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="893374816" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_desert_night_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_desert_night_background_loop_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{12B8D30A-EE92-4CBB-A492-4914DF46DB52}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{12B8D30A-EE92-4CBB-A492-4914DF46DB52}">
+							<Media>
+								<File Id="238742817"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}">
+							<Media>
+								<File Id="893374816"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="578570680" Name="Destruction_Volcanic_Boulder_Impact" ObjectPath="\Events\Default Work Unit\Destruction_Volcanic_Boulder_Impact">
+					<IncludedMemoryFiles>
+						<File Id="285808865" Language="SFX">
+							<ShortName>Destruction\Volcanic Boulder\DebrisDirt.wav</ShortName>
+							<Path>SFX\Destruction\Volcanic Boulder\DebrisDirt_10C4C929.wem</Path>
+						</File>
+						<File Id="337745466" Language="SFX">
+							<ShortName>Destruction\Volcanic Boulder\Explosion.wav</ShortName>
+							<Path>SFX\Destruction\Volcanic Boulder\Explosion_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="207908541" Name="Time_of_Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day" GUID="{0DB4C265-2556-4FF2-88C0-8853D0EEABBB}">
+					<Switches>
+						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Day" GUID="{12B8D30A-EE92-4CBB-A492-4914DF46DB52}"/>
+						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Night" GUID="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2201105581" Language="SFX" Hash="1351233711">
+			<ObjectPath>\SoundBanks\Default Work Unit\Credits</ObjectPath>
+			<ShortName>Credits</ShortName>
+			<Path>Credits.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1882971781" Name="Music_Credits" ObjectPath="\Events\Default Work Unit\Music_Credits">
+					<IncludedMemoryFiles>
+						<File Id="24588650" Language="SFX">
+							<ShortName>Music\Credits_120BPM_4_4_L8M_P0.wav</ShortName>
+							<Path>SFX\Music\Credits_120BPM_4_4_L8M_P0_45E3A7F1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="2482365692" Language="SFX" Hash="2986183468">
+			<ObjectPath>\SoundBanks\Default Work Unit\PineForest</ObjectPath>
+			<ShortName>PineForest</ShortName>
+			<Path>PineForest.bnk</Path>
+			<IncludedEvents>
+				<Event Id="808171864" Name="Ambient_Region_PineForest" ObjectPath="\Events\Default Work Unit\Ambient_Region_PineForest">
+					<IncludedMemoryFiles>
+						<File Id="103404229" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_pineforest_night_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_pineforest_night_background_loop_01_3721B86C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3945572659" Language="SFX" Hash="3895508612">
+			<ObjectPath>\SoundBanks\Default Work Unit\Village</ObjectPath>
+			<ShortName>Village</ShortName>
+			<Path>Village.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Default Work Unit\Ambient_Region_Village">
+					<IncludedMemoryFiles>
+						<File Id="198421452" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_village_day_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_village_day_background_loop_01_67FAA6DD.wem</Path>
+						</File>
+						<File Id="522645543" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_village_night_background_loop_01.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_4DDDE92E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{12B8D30A-EE92-4CBB-A492-4914DF46DB52}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{12B8D30A-EE92-4CBB-A492-4914DF46DB52}">
+							<Media>
+								<File Id="198421452"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}">
+							<Media>
+								<File Id="522645543"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Default Work Unit\Ambient_River">
+					<IncludedMemoryFiles>
+						<File Id="18508739" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_Water_River.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_Water_River_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Default Work Unit\Ambient_Windmill">
+					<IncludedMemoryFiles>
+						<File Id="200344808" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_03.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_03_10C4C929.wem</Path>
+						</File>
+						<File Id="253068894" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_01.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_01_ACF58286.wem</Path>
+						</File>
+						<File Id="702538557" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WindMillBlade_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WindMillBlade_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="207908541" Name="Time_of_Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day" GUID="{0DB4C265-2556-4FF2-88C0-8853D0EEABBB}">
+					<Switches>
+						<Switch Id="311764537" Name="Day" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Day" GUID="{12B8D30A-EE92-4CBB-A492-4914DF46DB52}"/>
+						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Night" GUID="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="4122393694" Language="SFX" Hash="1928814861">
+			<ObjectPath>\SoundBanks\Default Work Unit\Cave</ObjectPath>
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Default Work Unit\Ambient_Region_Cave">
+					<IncludedMemoryFiles>
+						<File Id="578142134" Language="SFX">
+							<ShortName>Ambient_Background\BAS_amb_cave_background_LP.wav</ShortName>
+							<Path>SFX\Ambient_Background\BAS_amb_cave_background_LP_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2644063196" Name="Ambient_WaterDrop" ObjectPath="\Events\Default Work Unit\Ambient_WaterDrop">
+					<IncludedMemoryFiles>
+						<File Id="251067468" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_02.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_02_10C4C929.wem</Path>
+						</File>
+						<File Id="294056133" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_05.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_05_10C4C929.wem</Path>
+						</File>
+						<File Id="726968632" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_01.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_01_10C4C929.wem</Path>
+						</File>
+						<File Id="770635657" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_03.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_03_10C4C929.wem</Path>
+						</File>
+						<File Id="1030438884" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_04.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_04_10C4C929.wem</Path>
+						</File>
+						<File Id="1065114496" Language="SFX">
+							<ShortName>Ambient_Emitters\BAS_WaterDrops_06.wav</ShortName>
+							<Path>SFX\Ambient_Emitters\BAS_WaterDrops_06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Default Work Unit\Destruction_Crystal_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="249237975" Language="SFX">
+							<ShortName>Destruction\BAS_Crystals_Destroy.wav</ShortName>
+							<Path>SFX\Destruction\BAS_Crystals_Destroy_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

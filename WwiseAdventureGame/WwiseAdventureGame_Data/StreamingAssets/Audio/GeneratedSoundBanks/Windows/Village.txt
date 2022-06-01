@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2208964750	Ambient_Windmill			\Default Work Unit\Ambient_Windmill	
+	2258053876	Ambient_River			\Default Work Unit\Ambient_River	
+	2752753183	Ambient_Region_Village			\Default Work Unit\Ambient_Region_Village	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	Time_of_Day			
+	1011622525	Night	Time_of_Day			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	18508739	BAS_Water_River	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Emitters\BAS_Water_River_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Water_River		3072144
+	198421452	BAS_amb_village_day_background_loop_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_day_background_loop_01_67FAA6DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Village\BAS_amb_village_day_background_loop_01		28801152
+	200344808	BAS_WindMillBlade_03	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WindMill\BAS_WindMillBlade_03		352320
+	253068894	BAS_WindMillBlade_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_01_ACF58286.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_WindMillBlade_01		1559400
+	522645543	BAS_amb_village_night_background_loop_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Background\BAS_amb_village_night_background_loop_01_4DDDE92E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Village\BAS_amb_village_night_background_loop_01		23457920
+	702538557	BAS_WindMillBlade_02	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Emitters\BAS_WindMillBlade_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\WindMill\BAS_WindMillBlade_02		1163328
+

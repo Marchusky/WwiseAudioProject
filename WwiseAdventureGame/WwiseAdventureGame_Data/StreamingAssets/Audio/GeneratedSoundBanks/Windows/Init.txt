@@ -1,3 +1,24 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+Switch	ID	Name	Switch Group			Notes
+	311764537	Day	Time_of_Day			
+	1011622525	Night	Time_of_Day			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	608898761	Dungeon	Music_Regions			
+	748895195	None	Music_Regions			
+	1421251628	Woodlands	Music_Regions			
+	1850388778	Desert	Music_Regions			
+	3132368115	WwizardHouse	Music_Regions			
+	3160623154	Silent	Music_Regions			
+	3424056949	Nowhere	Music_Regions			
+	3945572659	Village	Music_Regions			
+	4122393694	Cave	Music_Regions			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
@@ -21,5 +42,4 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
-	4230635974	Default_Motion_Device	Wwise Motion			
 
