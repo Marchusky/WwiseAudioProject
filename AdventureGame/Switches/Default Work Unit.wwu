@@ -77,12 +77,12 @@
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>7.99845</XPos>
+									<XPos>8</XPos>
 									<YPos>2</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>8.97204</XPos>
+									<XPos>9</XPos>
 									<YPos>1</YPos>
 									<Flags>0</Flags>
 								</Point>
@@ -102,7 +102,7 @@
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>14.01975</XPos>
+									<XPos>14.04168</XPos>
 									<YPos>6</YPos>
 									<Flags>0</Flags>
 								</Point>
@@ -114,6 +114,87 @@
 								<Point>
 									<XPos>15</XPos>
 									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Footsteps" ID="{9C491688-854F-44B0-AAA4-BC2C31B39366}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Run" ID="{495D2402-2BA5-491C-AB8F-A1A2D1E192F5}"/>
+						<Switch Name="Walk" ID="{7C08ADDB-8F7F-4FA0-8899-A06126EC92CD}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_MovementSpeed" ID="{330B0064-24D1-45B1-A144-2CD86E177D7D}"/>
+						<Curve Name="" ID="{B0C502A8-0738-406A-996A-FEADDACC3824}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>50.07032</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="Weapons" ID="{B3A5A21B-D96D-469E-9EA2-D2EBC3B63D8C}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Sword" ID="{C5623536-76EA-44EC-B953-7F89C4255A5C}"/>
+						<Switch Name="Axe" ID="{0025D0F3-232A-4230-9CF5-FAA707BEECB4}"/>
+						<Switch Name="Dagger" ID="{6F76D9B2-ED84-41FA-B43E-F26FCF90D7EC}"/>
+						<Switch Name="PickAxe" ID="{7E13F795-E59C-4FA1-BADB-FB07B6F1A2C3}"/>
+						<Switch Name="Hammer" ID="{710F0606-6756-4CC9-90B5-C755AD0E3B22}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Player_Weapon_Type" ID="{8ACB7C58-AF77-4090-B16E-8DF0EED884CC}"/>
+						<Curve Name="" ID="{7E18CC8C-591D-441C-BD77-0B2A36CCF022}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>2</XPos>
+									<YPos>5</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>3</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>4</XPos>
+									<YPos>2</YPos>
 									<Flags>37</Flags>
 								</Point>
 							</PointList>

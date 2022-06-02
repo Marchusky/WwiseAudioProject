@@ -13,6 +13,6 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	152023859	BAS_Waterfall	C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Waterfall		768064
-	1069939439	BAS_amb_forest_day_background_loop_01	C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_9CDB22D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Forest\BAS_amb_forest_day_background_loop_01		27990144
+	152023859	BAS_Waterfall	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Emitters\BAS_Waterfall_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Emitters\BAS_Waterfall		768064
+	1069939439	BAS_amb_forest_day_background_loop_01	C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\SFX\Ambient_Background\BAS_amb_forest_day_background_loop_01_9CDB22D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambient_Background\Forest\BAS_amb_forest_day_background_loop_01		27990144
 

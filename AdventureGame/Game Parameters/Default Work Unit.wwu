@@ -19,6 +19,16 @@
 						<Property Name="RTPCRamping" Type="int16" Value="2"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Player_Health" ID="{73F3EB37-7B50-4432-A420-CA997FD635F0}"/>
+				<GameParameter Name="Player_MovementSpeed" ID="{330B0064-24D1-45B1-A144-2CD86E177D7D}"/>
+				<GameParameter Name="MenuSlider_Master_Volume" ID="{6691CE92-943A-4831-9B59-BE4D8F73694D}"/>
+				<GameParameter Name="MenuSlider_Music_Volume" ID="{CB620DFB-CF50-4088-A7E4-39AA90ECF05E}"/>
+				<GameParameter Name="Player_Weapon_Type" ID="{8ACB7C58-AF77-4090-B16E-8DF0EED884CC}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="4"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

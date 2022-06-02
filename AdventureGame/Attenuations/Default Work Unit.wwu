@@ -22,6 +22,12 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
+											<XPos>13.63402</XPos>
+											<YPos>-200</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Exp3</SegmentShape>
+										</Point>
+										<Point>
 											<XPos>20</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>

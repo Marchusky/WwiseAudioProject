@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Usuario\Documents\GitHub\WwiseAudioProject\AdventureGame\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\fcbal\Documents\GitHub\WwiseAudioProject\AdventureGame\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="3623773156">
+		<SoundBank Id="133642231" Language="SFX" Hash="2921926488">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -129,20 +129,47 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Default Work Unit\Player_Health"/>
-				<Event Id="4074966752" Name="Player_PlayerFootstep" ObjectPath="\Events\Default Work Unit\Player_PlayerFootstep">
+				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\Player_Footstep">
 					<IncludedMemoryFiles>
+						<File Id="25007798" Language="SFX">
+							<ShortName>Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_06.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_06_10C4C929.wem</Path>
+						</File>
+						<File Id="43324162" Language="SFX">
+							<ShortName>Footsteps\Run\Water\BAS_Player_Footstep_water_run_06.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Water\BAS_Player_Footstep_water_run_06_10C4C929.wem</Path>
+						</File>
+						<File Id="45000150" Language="SFX">
+							<ShortName>Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_06.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_06_10C4C929.wem</Path>
+						</File>
+						<File Id="46106826" Language="SFX">
+							<ShortName>Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_02.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_02_10C4C929.wem</Path>
+						</File>
 						<File Id="60630466" Language="SFX">
 							<ShortName>Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_03.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_03_10C4C929.wem</Path>
+						</File>
+						<File Id="68308165" Language="SFX">
+							<ShortName>Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_02.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_02_10C4C929.wem</Path>
 						</File>
 						<File Id="83312605" Language="SFX">
 							<ShortName>Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_05.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_05_10C4C929.wem</Path>
 						</File>
+						<File Id="86339568" Language="SFX">
+							<ShortName>Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_01.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_01_10C4C929.wem</Path>
+						</File>
 						<File Id="105517932" Language="SFX">
 							<ShortName>Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_01.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_01_10C4C929.wem</Path>
+						</File>
+						<File Id="118964264" Language="SFX">
+							<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_03.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_03_10C4C929.wem</Path>
 						</File>
 						<File Id="119306444" Language="SFX">
 							<ShortName>Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_04.wav</ShortName>
@@ -152,6 +179,14 @@
 							<ShortName>Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_02.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_02_10C4C929.wem</Path>
 						</File>
+						<File Id="132029450" Language="SFX">
+							<ShortName>Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_04.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="134813006" Language="SFX">
+							<ShortName>Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_04.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_04_10C4C929.wem</Path>
+						</File>
 						<File Id="137964504" Language="SFX">
 							<ShortName>Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_04.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_04_10C4C929.wem</Path>
@@ -159,6 +194,10 @@
 						<File Id="139623825" Language="SFX">
 							<ShortName>Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_06.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_06_10C4C929.wem</Path>
+						</File>
+						<File Id="148930992" Language="SFX">
+							<ShortName>Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_01.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_01_10C4C929.wem</Path>
 						</File>
 						<File Id="149169872" Language="SFX">
 							<ShortName>Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_06.wav</ShortName>
@@ -168,9 +207,21 @@
 							<ShortName>Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_03.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_03_10C4C929.wem</Path>
 						</File>
+						<File Id="212355571" Language="SFX">
+							<ShortName>Footsteps\Run\Water\BAS_Player_Footstep_water_run_02.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Water\BAS_Player_Footstep_water_run_02_10C4C929.wem</Path>
+						</File>
 						<File Id="213024346" Language="SFX">
 							<ShortName>Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_03.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_03_10C4C929.wem</Path>
+						</File>
+						<File Id="229455186" Language="SFX">
+							<ShortName>Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_02.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_02_10C4C929.wem</Path>
+						</File>
+						<File Id="231965061" Language="SFX">
+							<ShortName>Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_05.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_05_10C4C929.wem</Path>
 						</File>
 						<File Id="260592815" Language="SFX">
 							<ShortName>Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_04.wav</ShortName>
@@ -187,6 +238,18 @@
 						<File Id="269374664" Language="SFX">
 							<ShortName>Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_05.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_05_10C4C929.wem</Path>
+						</File>
+						<File Id="271452971" Language="SFX">
+							<ShortName>Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_03.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_03_10C4C929.wem</Path>
+						</File>
+						<File Id="274060594" Language="SFX">
+							<ShortName>Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_01.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_01_10C4C929.wem</Path>
+						</File>
+						<File Id="284223424" Language="SFX">
+							<ShortName>Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_03.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_03_10C4C929.wem</Path>
 						</File>
 						<File Id="287885192" Language="SFX">
 							<ShortName>Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_04.wav</ShortName>
@@ -208,6 +271,18 @@
 							<ShortName>Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_01.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_01_10C4C929.wem</Path>
 						</File>
+						<File Id="320599554" Language="SFX">
+							<ShortName>Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_06.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_06_10C4C929.wem</Path>
+						</File>
+						<File Id="342450304" Language="SFX">
+							<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_05.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="381610979" Language="SFX">
+							<ShortName>Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_06.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_06_10C4C929.wem</Path>
+						</File>
 						<File Id="388336872" Language="SFX">
 							<ShortName>Footsteps\Walk\Stone\BAS_Player_Footstep_stone_walk_04.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Stone\BAS_Player_Footstep_stone_walk_04_10C4C929.wem</Path>
@@ -216,17 +291,49 @@
 							<ShortName>Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_05.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Dirt\BAS_Player_Footstep_dirt_walk_05_10C4C929.wem</Path>
 						</File>
+						<File Id="407173061" Language="SFX">
+							<ShortName>Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_04.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="427170479" Language="SFX">
+							<ShortName>Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_03.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_03_10C4C929.wem</Path>
+						</File>
 						<File Id="433106662" Language="SFX">
 							<ShortName>Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_01.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_01_10C4C929.wem</Path>
+						</File>
+						<File Id="443004522" Language="SFX">
+							<ShortName>Footsteps\Run\Water\BAS_Player_Footstep_water_run_03.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Water\BAS_Player_Footstep_water_run_03_10C4C929.wem</Path>
+						</File>
+						<File Id="451453123" Language="SFX">
+							<ShortName>Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_05.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="496634122" Language="SFX">
+							<ShortName>Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_01.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_01_10C4C929.wem</Path>
 						</File>
 						<File Id="526136462" Language="SFX">
 							<ShortName>Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_02.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_02_10C4C929.wem</Path>
 						</File>
+						<File Id="545654536" Language="SFX">
+							<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_02.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_02_10C4C929.wem</Path>
+						</File>
+						<File Id="557396045" Language="SFX">
+							<ShortName>Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_02.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_02_10C4C929.wem</Path>
+						</File>
 						<File Id="572464380" Language="SFX">
 							<ShortName>Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_04.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_04_10C4C929.wem</Path>
+						</File>
+						<File Id="574018462" Language="SFX">
+							<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_01.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_01_10C4C929.wem</Path>
 						</File>
 						<File Id="576641613" Language="SFX">
 							<ShortName>Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_01.wav</ShortName>
@@ -236,13 +343,37 @@
 							<ShortName>Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_05.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Grass\BAS_Player_Footstep_grass_walk_05_10C4C929.wem</Path>
 						</File>
+						<File Id="590730046" Language="SFX">
+							<ShortName>Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_01.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_01_10C4C929.wem</Path>
+						</File>
+						<File Id="593030260" Language="SFX">
+							<ShortName>Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_05.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Wood\BAS_Player_Footstep_wood_run_05_10C4C929.wem</Path>
+						</File>
 						<File Id="612923756" Language="SFX">
 							<ShortName>Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_06.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Water\BAS_Player_Footstep_water_walk_06_10C4C929.wem</Path>
 						</File>
+						<File Id="614158301" Language="SFX">
+							<ShortName>Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_05.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_05_10C4C929.wem</Path>
+						</File>
 						<File Id="654137681" Language="SFX">
 							<ShortName>Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_05.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_05_10C4C929.wem</Path>
+						</File>
+						<File Id="689274655" Language="SFX">
+							<ShortName>Footsteps\Run\Water\BAS_Player_Footstep_water_run_05.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Water\BAS_Player_Footstep_water_run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="697470634" Language="SFX">
+							<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_06.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_06_10C4C929.wem</Path>
+						</File>
+						<File Id="739832514" Language="SFX">
+							<ShortName>Footsteps\Run\Water\BAS_Player_Footstep_water_run_01.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Water\BAS_Player_Footstep_water_run_01_10C4C929.wem</Path>
 						</File>
 						<File Id="741324826" Language="SFX">
 							<ShortName>Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_01.wav</ShortName>
@@ -251,6 +382,10 @@
 						<File Id="755095991" Language="SFX">
 							<ShortName>Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_02.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_02_10C4C929.wem</Path>
+						</File>
+						<File Id="758074194" Language="SFX">
+							<ShortName>Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_03.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Grass\BAS_Player_Footstep_grass_run_03_10C4C929.wem</Path>
 						</File>
 						<File Id="762876477" Language="SFX">
 							<ShortName>Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_03.wav</ShortName>
@@ -264,6 +399,18 @@
 							<ShortName>Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_06.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_06_10C4C929.wem</Path>
 						</File>
+						<File Id="822535565" Language="SFX">
+							<ShortName>Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_04.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Dirt\BAS_Player_Footstep_dirt_run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="830613387" Language="SFX">
+							<ShortName>Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_05.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Sand\BAS_Player_Footstep_sand_run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="871507814" Language="SFX">
+							<ShortName>Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_04.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_04_10C4C929.wem</Path>
+						</File>
 						<File Id="885548314" Language="SFX">
 							<ShortName>Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_02.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_02_10C4C929.wem</Path>
@@ -272,9 +419,21 @@
 							<ShortName>Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_06.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Rubble\BAS_Player_Footstep_rubble_walk_06_10C4C929.wem</Path>
 						</File>
+						<File Id="955500942" Language="SFX">
+							<ShortName>Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_02.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_02_10C4C929.wem</Path>
+						</File>
 						<File Id="956762804" Language="SFX">
 							<ShortName>Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_04.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Sand\BAS_Player_Footstep_sand_walk_04_10C4C929.wem</Path>
+						</File>
+						<File Id="960018224" Language="SFX">
+							<ShortName>Footsteps\Run\Water\BAS_Player_Footstep_water_run_04.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Water\BAS_Player_Footstep_water_run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="963554935" Language="SFX">
+							<ShortName>Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_03.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_03_10C4C929.wem</Path>
 						</File>
 						<File Id="964417384" Language="SFX">
 							<ShortName>Footsteps\Walk\Stone\BAS_Player_Footstep_stone_walk_03.wav</ShortName>
@@ -283,6 +442,14 @@
 						<File Id="996996158" Language="SFX">
 							<ShortName>Footsteps\Walk\Stone\BAS_Player_Footstep_stone_walk_02.wav</ShortName>
 							<Path>SFX\Footsteps\Walk\Stone\BAS_Player_Footstep_stone_walk_02_10C4C929.wem</Path>
+						</File>
+						<File Id="1013155879" Language="SFX">
+							<ShortName>Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_04.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Stone\BAS_Player_Footstep_stone_run_04_10C4C929.wem</Path>
+						</File>
+						<File Id="1022859956" Language="SFX">
+							<ShortName>Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_06.wav</ShortName>
+							<Path>SFX\Footsteps\Run\Rubble\BAS_Player_Footstep_rubble_run_06_10C4C929.wem</Path>
 						</File>
 						<File Id="1023464345" Language="SFX">
 							<ShortName>Footsteps\Walk\Wood\BAS_Player_Footstep_wood_walk_03.wav</ShortName>
@@ -297,170 +464,870 @@
 							<Path>SFX\Footsteps\Walk\Stone\BAS_Player_Footstep_stone_walk_05_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<DefaultSwitchValue>{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}</DefaultSwitchValue>
+					<DefaultSwitchValue>{7C08ADDB-8F7F-4FA0-8899-A06126EC92CD}</DefaultSwitchValue>
 					<SwitchContainers>
-						<SwitchContainer SwitchValue="{A3611407-73C1-43BB-93FA-F956D69790E9}">
-							<Media>
-								<File Id="83312605"/>
-								<File Id="200617368"/>
-								<File Id="287885192"/>
-								<File Id="755095991"/>
-								<File Id="931676924"/>
-							</Media>
+						<SwitchContainer SwitchValue="{495D2402-2BA5-491C-AB8F-A1A2D1E192F5}">
+							<DefaultSwitchValue>{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{A3611407-73C1-43BB-93FA-F956D69790E9}">
+									<Media>
+										<File Id="229455186"/>
+										<File Id="274060594"/>
+										<File Id="451453123"/>
+										<File Id="871507814"/>
+										<File Id="963554935"/>
+										<File Id="1022859956"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{8BFF390B-ECB3-4F13-A870-8F92D48659CF}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2FFB930C-2D31-4CFC-9B3F-5E2F700C60F5}">
+									<Media>
+										<File Id="43324162"/>
+										<File Id="212355571"/>
+										<File Id="443004522"/>
+										<File Id="689274655"/>
+										<File Id="739832514"/>
+										<File Id="960018224"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3770F718-700F-4BC9-A5CE-8F4BFDF7A781}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{17E6DB35-2703-499D-B807-D0C75D81C2C1}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FA3E484A-5996-4A28-BFA4-FF7EB6717409}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{32668058-5BF8-40EE-9E9C-2F4E2EE0A199}">
+									<Media>
+										<File Id="25007798"/>
+										<File Id="68308165"/>
+										<File Id="148930992"/>
+										<File Id="231965061"/>
+										<File Id="407173061"/>
+										<File Id="758074194"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{25C85962-8B03-4EBC-A1FF-74C3919ED522}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7E1A2871-2BA3-48FE-A48E-BA35477EDE01}">
+									<Media>
+										<File Id="86339568"/>
+										<File Id="132029450"/>
+										<File Id="271452971"/>
+										<File Id="320599554"/>
+										<File Id="557396045"/>
+										<File Id="830613387"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{BC98C574-F032-4AFD-A97E-B01C88AFEA6D}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{645CE08A-1C87-4F99-9A02-CB0EBBE0C684}">
+									<Media>
+										<File Id="45000150"/>
+										<File Id="284223424"/>
+										<File Id="496634122"/>
+										<File Id="614158301"/>
+										<File Id="955500942"/>
+										<File Id="1013155879"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9336799F-9A51-4CEE-8978-FC3583D7D618}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D1DCA5AF-97CD-432B-AA6B-72F87B5BB504}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}">
+									<Media>
+										<File Id="118964264"/>
+										<File Id="342450304"/>
+										<File Id="545654536"/>
+										<File Id="574018462"/>
+										<File Id="697470634"/>
+										<File Id="822535565"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D9EB75DF-4CC0-4AD4-A8F6-1917E975CCD7}">
+									<Media>
+										<File Id="46106826"/>
+										<File Id="134813006"/>
+										<File Id="381610979"/>
+										<File Id="427170479"/>
+										<File Id="590730046"/>
+										<File Id="593030260"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
-						<SwitchContainer SwitchValue="{8BFF390B-ECB3-4F13-A870-8F92D48659CF}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{2FFB930C-2D31-4CFC-9B3F-5E2F700C60F5}">
-							<Media>
-								<File Id="60630466"/>
-								<File Id="137964504"/>
-								<File Id="526136462"/>
-								<File Id="576641613"/>
-								<File Id="612923756"/>
-								<File Id="1062391457"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{3770F718-700F-4BC9-A5CE-8F4BFDF7A781}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{17E6DB35-2703-499D-B807-D0C75D81C2C1}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{FA3E484A-5996-4A28-BFA4-FF7EB6717409}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{32668058-5BF8-40EE-9E9C-2F4E2EE0A199}">
-							<Media>
-								<File Id="139623825"/>
-								<File Id="263890707"/>
-								<File Id="288736737"/>
-								<File Id="317704190"/>
-								<File Id="572464380"/>
-								<File Id="576924454"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{25C85962-8B03-4EBC-A1FF-74C3919ED522}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{7E1A2871-2BA3-48FE-A48E-BA35477EDE01}">
-							<Media>
-								<File Id="264420771"/>
-								<File Id="269374664"/>
-								<File Id="741324826"/>
-								<File Id="762876477"/>
-								<File Id="885548314"/>
-								<File Id="956762804"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BC98C574-F032-4AFD-A97E-B01C88AFEA6D}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{645CE08A-1C87-4F99-9A02-CB0EBBE0C684}">
-							<Media>
-								<File Id="289083996"/>
-								<File Id="388336872"/>
-								<File Id="765729031"/>
-								<File Id="964417384"/>
-								<File Id="996996158"/>
-								<File Id="1071381212"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{9336799F-9A51-4CEE-8978-FC3583D7D618}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{D1DCA5AF-97CD-432B-AA6B-72F87B5BB504}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}">
-							<Media>
-								<File Id="105517932"/>
-								<File Id="128137016"/>
-								<File Id="149169872"/>
-								<File Id="213024346"/>
-								<File Id="260592815"/>
-								<File Id="391077158"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{D9EB75DF-4CC0-4AD4-A8F6-1917E975CCD7}">
-							<Media>
-								<File Id="119306444"/>
-								<File Id="313562469"/>
-								<File Id="433106662"/>
-								<File Id="654137681"/>
-								<File Id="773371363"/>
-								<File Id="1023464345"/>
-							</Media>
+						<SwitchContainer SwitchValue="{7C08ADDB-8F7F-4FA0-8899-A06126EC92CD}">
+							<DefaultSwitchValue>{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{A3611407-73C1-43BB-93FA-F956D69790E9}">
+									<Media>
+										<File Id="83312605"/>
+										<File Id="200617368"/>
+										<File Id="287885192"/>
+										<File Id="755095991"/>
+										<File Id="931676924"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{8BFF390B-ECB3-4F13-A870-8F92D48659CF}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2FFB930C-2D31-4CFC-9B3F-5E2F700C60F5}">
+									<Media>
+										<File Id="60630466"/>
+										<File Id="137964504"/>
+										<File Id="526136462"/>
+										<File Id="576641613"/>
+										<File Id="612923756"/>
+										<File Id="1062391457"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3770F718-700F-4BC9-A5CE-8F4BFDF7A781}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{17E6DB35-2703-499D-B807-D0C75D81C2C1}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FA3E484A-5996-4A28-BFA4-FF7EB6717409}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{32668058-5BF8-40EE-9E9C-2F4E2EE0A199}">
+									<Media>
+										<File Id="139623825"/>
+										<File Id="263890707"/>
+										<File Id="288736737"/>
+										<File Id="317704190"/>
+										<File Id="572464380"/>
+										<File Id="576924454"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{25C85962-8B03-4EBC-A1FF-74C3919ED522}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7E1A2871-2BA3-48FE-A48E-BA35477EDE01}">
+									<Media>
+										<File Id="264420771"/>
+										<File Id="269374664"/>
+										<File Id="741324826"/>
+										<File Id="762876477"/>
+										<File Id="885548314"/>
+										<File Id="956762804"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{BC98C574-F032-4AFD-A97E-B01C88AFEA6D}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{645CE08A-1C87-4F99-9A02-CB0EBBE0C684}">
+									<Media>
+										<File Id="289083996"/>
+										<File Id="388336872"/>
+										<File Id="765729031"/>
+										<File Id="964417384"/>
+										<File Id="996996158"/>
+										<File Id="1071381212"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9336799F-9A51-4CEE-8978-FC3583D7D618}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D1DCA5AF-97CD-432B-AA6B-72F87B5BB504}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}">
+									<Media>
+										<File Id="105517932"/>
+										<File Id="128137016"/>
+										<File Id="149169872"/>
+										<File Id="213024346"/>
+										<File Id="260592815"/>
+										<File Id="391077158"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D9EB75DF-4CC0-4AD4-A8F6-1917E975CCD7}">
+									<Media>
+										<File Id="119306444"/>
+										<File Id="313562469"/>
+										<File Id="433106662"/>
+										<File Id="654137681"/>
+										<File Id="773371363"/>
+										<File Id="1023464345"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Default Work Unit\Player_WeaponImpact"/>
+				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Default Work Unit\Player_Health">
+					<IncludedMemoryFiles>
+						<File Id="234947115" Language="SFX">
+							<ShortName>Heartbeat\Heartbeat_Dub.wav</ShortName>
+							<Path>SFX\Heartbeat\Heartbeat_Dub_10C4C929.wem</Path>
+						</File>
+						<File Id="546604483" Language="SFX">
+							<ShortName>Heartbeat\Heartbeat_Dub2.wav</ShortName>
+							<Path>SFX\Heartbeat\Heartbeat_Dub2_10C4C929.wem</Path>
+						</File>
+						<File Id="1006035904" Language="SFX">
+							<ShortName>Heartbeat\Heartbeat_Lub2.wav</ShortName>
+							<Path>SFX\Heartbeat\Heartbeat_Lub2_10C4C929.wem</Path>
+						</File>
+						<File Id="1007867372" Language="SFX">
+							<ShortName>Heartbeat\Heartbeat_Lub.wav</ShortName>
+							<Path>SFX\Heartbeat\Heartbeat_Lub_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Default Work Unit\Player_WeaponImpact">
+					<IncludedMemoryFiles>
+						<File Id="72287293" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Dirt.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Dirt_10C4C929.wem</Path>
+						</File>
+						<File Id="107864555" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Dirt.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Dirt_10C4C929.wem</Path>
+						</File>
+						<File Id="108578116" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="155700374" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Stone.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Stone_10C4C929.wem</Path>
+						</File>
+						<File Id="169778325" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Wood.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Wood_10C4C929.wem</Path>
+						</File>
+						<File Id="227005965" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_PickAxe_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_PickAxe_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+						<File Id="360611053" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Dirt.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Dirt_10C4C929.wem</Path>
+						</File>
+						<File Id="365743487" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_PickAxe_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_PickAxe_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="390799387" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+						<File Id="457978275" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Leaves.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Leaves_10C4C929.wem</Path>
+						</File>
+						<File Id="471650868" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Wood.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Wood_10C4C929.wem</Path>
+						</File>
+						<File Id="631882166" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Leaves.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Leaves_10C4C929.wem</Path>
+						</File>
+						<File Id="714063642" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Grass.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Grass_10C4C929.wem</Path>
+						</File>
+						<File Id="777067277" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Grass.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Grass_10C4C929.wem</Path>
+						</File>
+						<File Id="777171981" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Leaves.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Leaves_10C4C929.wem</Path>
+						</File>
+						<File Id="783123755" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+						<File Id="792821454" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Axe_SurfaceType_Stone.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Axe_SurfaceType_Stone_10C4C929.wem</Path>
+						</File>
+						<File Id="849591288" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="862003219" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Stone.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Stone_10C4C929.wem</Path>
+						</File>
+						<File Id="929009122" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Hammer_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Hammer_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+						<File Id="936007218" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Hammer_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Hammer_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="981603683" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Crate.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Crate_10C4C929.wem</Path>
+						</File>
+						<File Id="988200153" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Sword_SurfaceType_Grass.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Sword_SurfaceType_Grass_10C4C929.wem</Path>
+						</File>
+						<File Id="1069727493" Language="SFX">
+							<ShortName>Impacts\BAS_Impact_Dagger_SurfaceType_Barrel.wav</ShortName>
+							<Path>SFX\Impacts\BAS_Impact_Dagger_SurfaceType_Barrel_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C5623536-76EA-44EC-B953-7F89C4255A5C}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{710F0606-6756-4CC9-90B5-C755AD0E3B22}">
+							<Children>
+								<SwitchContainer SwitchValue="{A3611407-73C1-43BB-93FA-F956D69790E9}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{8BFF390B-ECB3-4F13-A870-8F92D48659CF}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2FFB930C-2D31-4CFC-9B3F-5E2F700C60F5}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3770F718-700F-4BC9-A5CE-8F4BFDF7A781}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{17E6DB35-2703-499D-B807-D0C75D81C2C1}">
+									<Media>
+										<File Id="929009122"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FA3E484A-5996-4A28-BFA4-FF7EB6717409}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{32668058-5BF8-40EE-9E9C-2F4E2EE0A199}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{25C85962-8B03-4EBC-A1FF-74C3919ED522}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7E1A2871-2BA3-48FE-A48E-BA35477EDE01}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{BC98C574-F032-4AFD-A97E-B01C88AFEA6D}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{645CE08A-1C87-4F99-9A02-CB0EBBE0C684}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9336799F-9A51-4CEE-8978-FC3583D7D618}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D1DCA5AF-97CD-432B-AA6B-72F87B5BB504}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D9EB75DF-4CC0-4AD4-A8F6-1917E975CCD7}">
+									<Media>
+										<File Id="936007218"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C5623536-76EA-44EC-B953-7F89C4255A5C}">
+							<DefaultSwitchValue>{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{A3611407-73C1-43BB-93FA-F956D69790E9}">
+									<Media>
+										<File Id="72287293"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{8BFF390B-ECB3-4F13-A870-8F92D48659CF}">
+									<Media>
+										<File Id="631882166"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2FFB930C-2D31-4CFC-9B3F-5E2F700C60F5}">
+									<Media>
+										<File Id="72287293"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}">
+									<Media>
+										<File Id="72287293"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{17E6DB35-2703-499D-B807-D0C75D81C2C1}">
+									<Media>
+										<File Id="783123755"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FA3E484A-5996-4A28-BFA4-FF7EB6717409}">
+									<Media>
+										<File Id="72287293"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{32668058-5BF8-40EE-9E9C-2F4E2EE0A199}">
+									<Media>
+										<File Id="988200153"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{25C85962-8B03-4EBC-A1FF-74C3919ED522}">
+									<Media>
+										<File Id="72287293"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7E1A2871-2BA3-48FE-A48E-BA35477EDE01}">
+									<Media>
+										<File Id="72287293"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{645CE08A-1C87-4F99-9A02-CB0EBBE0C684}">
+									<Media>
+										<File Id="862003219"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D1DCA5AF-97CD-432B-AA6B-72F87B5BB504}">
+									<Media>
+										<File Id="72287293"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}">
+									<Media>
+										<File Id="849591288"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D9EB75DF-4CC0-4AD4-A8F6-1917E975CCD7}">
+									<Media>
+										<File Id="471650868"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7E13F795-E59C-4FA1-BADB-FB07B6F1A2C3}">
+							<DefaultSwitchValue>{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{A3611407-73C1-43BB-93FA-F956D69790E9}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{8BFF390B-ECB3-4F13-A870-8F92D48659CF}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2FFB930C-2D31-4CFC-9B3F-5E2F700C60F5}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3770F718-700F-4BC9-A5CE-8F4BFDF7A781}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{17E6DB35-2703-499D-B807-D0C75D81C2C1}">
+									<Media>
+										<File Id="227005965"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FA3E484A-5996-4A28-BFA4-FF7EB6717409}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{32668058-5BF8-40EE-9E9C-2F4E2EE0A199}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{25C85962-8B03-4EBC-A1FF-74C3919ED522}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7E1A2871-2BA3-48FE-A48E-BA35477EDE01}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{BC98C574-F032-4AFD-A97E-B01C88AFEA6D}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{645CE08A-1C87-4F99-9A02-CB0EBBE0C684}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9336799F-9A51-4CEE-8978-FC3583D7D618}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D1DCA5AF-97CD-432B-AA6B-72F87B5BB504}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D9EB75DF-4CC0-4AD4-A8F6-1917E975CCD7}">
+									<Media>
+										<File Id="365743487"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6F76D9B2-ED84-41FA-B43E-F26FCF90D7EC}">
+							<DefaultSwitchValue>{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{A3611407-73C1-43BB-93FA-F956D69790E9}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{8BFF390B-ECB3-4F13-A870-8F92D48659CF}">
+									<Media>
+										<File Id="777171981"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2FFB930C-2D31-4CFC-9B3F-5E2F700C60F5}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3770F718-700F-4BC9-A5CE-8F4BFDF7A781}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{17E6DB35-2703-499D-B807-D0C75D81C2C1}">
+									<Media>
+										<File Id="1069727493"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FA3E484A-5996-4A28-BFA4-FF7EB6717409}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{32668058-5BF8-40EE-9E9C-2F4E2EE0A199}">
+									<Media>
+										<File Id="777067277"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{25C85962-8B03-4EBC-A1FF-74C3919ED522}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7E1A2871-2BA3-48FE-A48E-BA35477EDE01}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{BC98C574-F032-4AFD-A97E-B01C88AFEA6D}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{645CE08A-1C87-4F99-9A02-CB0EBBE0C684}">
+									<Media>
+										<File Id="155700374"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9336799F-9A51-4CEE-8978-FC3583D7D618}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D1DCA5AF-97CD-432B-AA6B-72F87B5BB504}">
+									<Media>
+										<File Id="360611053"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}">
+									<Media>
+										<File Id="981603683"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D9EB75DF-4CC0-4AD4-A8F6-1917E975CCD7}">
+									<Media>
+										<File Id="169778325"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0025D0F3-232A-4230-9CF5-FAA707BEECB4}">
+							<Children>
+								<SwitchContainer SwitchValue="{A3611407-73C1-43BB-93FA-F956D69790E9}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{8BFF390B-ECB3-4F13-A870-8F92D48659CF}">
+									<Media>
+										<File Id="457978275"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2FFB930C-2D31-4CFC-9B3F-5E2F700C60F5}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3770F718-700F-4BC9-A5CE-8F4BFDF7A781}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{17E6DB35-2703-499D-B807-D0C75D81C2C1}">
+									<Media>
+										<File Id="390799387"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{FA3E484A-5996-4A28-BFA4-FF7EB6717409}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{32668058-5BF8-40EE-9E9C-2F4E2EE0A199}">
+									<Media>
+										<File Id="714063642"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{25C85962-8B03-4EBC-A1FF-74C3919ED522}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{7E1A2871-2BA3-48FE-A48E-BA35477EDE01}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{BC98C574-F032-4AFD-A97E-B01C88AFEA6D}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{645CE08A-1C87-4F99-9A02-CB0EBBE0C684}">
+									<Media>
+										<File Id="792821454"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{9336799F-9A51-4CEE-8978-FC3583D7D618}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D1DCA5AF-97CD-432B-AA6B-72F87B5BB504}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{3A339FDD-D978-47A9-8D47-F7C7308C3F5D}">
+									<Media>
+										<File Id="108578116"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{D9EB75DF-4CC0-4AD4-A8F6-1917E975CCD7}">
+									<Media>
+										<File Id="107864555"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3240473869" Name="Quest_Complete" ObjectPath="\Events\Default Work Unit\Quest_Complete"/>
 				<Event Id="844130829" Name="Quest_CompleteCollection" ObjectPath="\Events\Default Work Unit\Quest_CompleteCollection"/>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
@@ -587,6 +1454,9 @@
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+				<GameParameter Id="215992295" Name="Player_Health" ObjectPath="\Game Parameters\Default Work Unit\Player_Health"/>
+				<GameParameter Id="2471758783" Name="Player_MovementSpeed" ObjectPath="\Game Parameters\Default Work Unit\Player_MovementSpeed"/>
+				<GameParameter Id="3251833556" Name="Player_Weapon_Type" ObjectPath="\Game Parameters\Default Work Unit\Player_Weapon_Type"/>
 				<GameParameter Id="4064446173" Name="Surface_Type" ObjectPath="\Game Parameters\Default Work Unit\Surface_Type"/>
 			</GameParameters>
 			<StateGroups>
@@ -611,6 +1481,21 @@
 						<Switch Id="1011622525" Name="Night" ObjectPath="\Switches\Default Work Unit\Time_of_Day\Night" GUID="{23EEB13D-026D-43C2-A3DA-96B33F5888AE}"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="1467963052" Name="Weapons" ObjectPath="\Switches\Default Work Unit\Weapons" GUID="{B3A5A21B-D96D-469E-9EA2-D2EBC3B63D8C}">
+					<Switches>
+						<Switch Id="2454616260" Name="Sword" ObjectPath="\Switches\Default Work Unit\Weapons\Sword" GUID="{C5623536-76EA-44EC-B953-7F89C4255A5C}"/>
+						<Switch Id="765201635" Name="Axe" ObjectPath="\Switches\Default Work Unit\Weapons\Axe" GUID="{0025D0F3-232A-4230-9CF5-FAA707BEECB4}"/>
+						<Switch Id="3732162827" Name="Dagger" ObjectPath="\Switches\Default Work Unit\Weapons\Dagger" GUID="{6F76D9B2-ED84-41FA-B43E-F26FCF90D7EC}"/>
+						<Switch Id="490825222" Name="PickAxe" ObjectPath="\Switches\Default Work Unit\Weapons\PickAxe" GUID="{7E13F795-E59C-4FA1-BADB-FB07B6F1A2C3}"/>
+						<Switch Id="703486095" Name="Hammer" ObjectPath="\Switches\Default Work Unit\Weapons\Hammer" GUID="{710F0606-6756-4CC9-90B5-C755AD0E3B22}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps" GUID="{9C491688-854F-44B0-AAA4-BC2C31B39366}">
+					<Switches>
+						<Switch Id="712161704" Name="Run" ObjectPath="\Switches\Default Work Unit\Footsteps\Run" GUID="{495D2402-2BA5-491C-AB8F-A1A2D1E192F5}"/>
+						<Switch Id="2108779966" Name="Walk" ObjectPath="\Switches\Default Work Unit\Footsteps\Walk" GUID="{7C08ADDB-8F7F-4FA0-8899-A06126EC92CD}"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\Surface_Type" GUID="{BC48BBE3-426A-43BF-8A46-68A45295A6F3}">
 					<Switches>
 						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface_Type\Dirt" GUID="{B5A62B1A-4136-49D8-93E9-13FF3EF16C12}"/>
@@ -633,7 +1518,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="152105657" Language="SFX" Hash="925362791">
+		<SoundBank Id="152105657" Language="SFX" Hash="1995650717">
 			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
@@ -787,7 +1672,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="1363414568">
+		<SoundBank Id="608898761" Language="SFX" Hash="3782491797">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -818,12 +1703,29 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2739097640">
+		<SoundBank Id="1355168291" Language="SFX" Hash="864966350">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="243931001" Name="Dungeon_Forge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Forge"/>
+				<AuxBus Id="425911480" Name="Dungeon_Library_Statue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Library_Statue"/>
+				<AuxBus Id="548199313" Name="Dungeon_MezzanineEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_MezzanineEntrance"/>
+				<AuxBus Id="567469275" Name="Dungeon_PathToForge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_PathToForge"/>
+				<AuxBus Id="1156828694" Name="Dungeon_Entrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Entrance"/>
+				<AuxBus Id="1941785149" Name="Dungeon_Library" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Library"/>
+				<AuxBus Id="2106540524" Name="Dungeon_RoadToCore" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_RoadToCore"/>
+				<AuxBus Id="2213850905" Name="Dungeon_Core" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Core"/>
+				<AuxBus Id="3352684520" Name="CaveEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\CaveEntrance"/>
+				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+				<AuxBus Id="4158999182" Name="Dungeon_MezzanineRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoom"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Master_Volume"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Music_Volume"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="3798593899">
+		<SoundBank Id="1421251628" Language="SFX" Hash="222163245">
 			<ObjectPath>\SoundBanks\Default Work Unit\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -857,7 +1759,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="1829967770">
+		<SoundBank Id="1850388778" Language="SFX" Hash="841097894">
 			<ObjectPath>\SoundBanks\Default Work Unit\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -912,7 +1814,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2201105581" Language="SFX" Hash="960217414">
+		<SoundBank Id="2201105581" Language="SFX" Hash="1351233711">
 			<ObjectPath>\SoundBanks\Default Work Unit\Credits</ObjectPath>
 			<ShortName>Credits</ShortName>
 			<Path>Credits.bnk</Path>
@@ -927,7 +1829,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="1807379463">
+		<SoundBank Id="2482365692" Language="SFX" Hash="3111016227">
 			<ObjectPath>\SoundBanks\Default Work Unit\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
@@ -942,7 +1844,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="3760273406">
+		<SoundBank Id="3945572659" Language="SFX" Hash="1944262989">
 			<ObjectPath>\SoundBanks\Default Work Unit\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>
@@ -1009,7 +1911,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="4122393694" Language="SFX" Hash="111516066">
+		<SoundBank Id="4122393694" Language="SFX" Hash="4096307126">
 			<ObjectPath>\SoundBanks\Default Work Unit\Cave</ObjectPath>
 			<ShortName>Cave</ShortName>
 			<Path>Cave.bnk</Path>

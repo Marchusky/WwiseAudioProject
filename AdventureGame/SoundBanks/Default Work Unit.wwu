@@ -32,7 +32,7 @@
 						<ObjectRef Name="Player_WeaponImpact" ID="{A18A1F00-0EAF-408D-BA5C-CDA1CB367DAC}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_Region" ID="{BD966925-6CB3-42A6-B9BA-82A82758B65A}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Down" ID="{A902B990-2839-44E3-BE54-386CDE03A16A}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player_PlayerFootstep" ID="{531003F0-416B-4589-82D7-611D7B18583F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{531003F0-416B-4589-82D7-611D7B18583F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Quest_Roll_Open" ID="{96245503-A269-4590-A85C-6C1EE1373B7F}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Menu_Resume" ID="{E46BAA7B-588B-45C9-9EB8-C6A22AF1ED32}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Exit" ID="{7342622D-95DF-45DE-B509-57C9A80938E3}" WorkUnitID="{78F6F9CA-C486-4EBE-834F-9A0B65E65FBD}" Origin="Manual" Filter="7"/>
